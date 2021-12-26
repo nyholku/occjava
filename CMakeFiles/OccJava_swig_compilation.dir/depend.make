@@ -3,17 +3,31 @@
 
 CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  src/BRep.i \
+ src/BRepAlgoAPI.i \
  src/BRepBuilderAPI.i \
+ src/BRepCheck.i \
+ src/BRepLib.i \
+ src/BRepOffsetAPI.i \
  src/BRepPrimAPI.i \
  src/BRepTools.i \
+ src/GC.i \
  src/Geom.i \
+ src/GeomAPI.i \
+ src/GeomAbs.i \
+ src/GeomLProp_SLProps.i \
  src/OccJava.i \
+ src/Poly.i \
+ src/ShapeUpgrade.i \
  src/Standard.i \
+ src/TCol.i \
  src/TopAbs.i \
+ src/TopTools.i \
  src/TopoDS.i \
  src/gp.i \
  /usr/local/include/opencascade/Adaptor3d_Curve.hxx \
  /usr/local/include/opencascade/Approx_ParametrizationType.hxx \
+ /usr/local/include/opencascade/BRepAlgo_Image.hxx \
+ /usr/local/include/opencascade/BRepAlgo_NormalProjection.hxx \
  /usr/local/include/opencascade/BRepBuilderAPI_Command.hxx \
  /usr/local/include/opencascade/BRepBuilderAPI_EdgeError.hxx \
  /usr/local/include/opencascade/BRepBuilderAPI_FaceError.hxx \
@@ -31,6 +45,7 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  /usr/local/include/opencascade/BRepBuilderAPI_WireError.hxx \
  /usr/local/include/opencascade/BRepFill_DataMapOfShapeHArray2OfShape.hxx \
  /usr/local/include/opencascade/BRepFill_Pipe.hxx \
+ /usr/local/include/opencascade/BRepLib.hxx \
  /usr/local/include/opencascade/BRepLib_Command.hxx \
  /usr/local/include/opencascade/BRepLib_EdgeError.hxx \
  /usr/local/include/opencascade/BRepLib_FaceError.hxx \
@@ -42,8 +57,25 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  /usr/local/include/opencascade/BRepLib_MakeWire.hxx \
  /usr/local/include/opencascade/BRepLib_ShapeModification.hxx \
  /usr/local/include/opencascade/BRepLib_WireError.hxx \
+ /usr/local/include/opencascade/BRepOffsetAPI_MakeOffsetShape.hxx \
  /usr/local/include/opencascade/BRepOffsetAPI_MakePipe.hxx \
+ /usr/local/include/opencascade/BRepOffsetAPI_MakeThickSolid.hxx \
+ /usr/local/include/opencascade/BRepOffsetAPI_NormalProjection.hxx \
  /usr/local/include/opencascade/BRepOffsetAPI_ThruSections.hxx \
+ /usr/local/include/opencascade/BRepOffset_Analyse.hxx \
+ /usr/local/include/opencascade/BRepOffset_DataMapOfShapeListOfInterval.hxx \
+ /usr/local/include/opencascade/BRepOffset_DataMapOfShapeOffset.hxx \
+ /usr/local/include/opencascade/BRepOffset_Error.hxx \
+ /usr/local/include/opencascade/BRepOffset_Interval.hxx \
+ /usr/local/include/opencascade/BRepOffset_Interval.lxx \
+ /usr/local/include/opencascade/BRepOffset_ListOfInterval.hxx \
+ /usr/local/include/opencascade/BRepOffset_MakeLoops.hxx \
+ /usr/local/include/opencascade/BRepOffset_MakeOffset.hxx \
+ /usr/local/include/opencascade/BRepOffset_MakeSimpleOffset.hxx \
+ /usr/local/include/opencascade/BRepOffset_Mode.hxx \
+ /usr/local/include/opencascade/BRepOffset_Offset.hxx \
+ /usr/local/include/opencascade/BRepOffset_Offset.lxx \
+ /usr/local/include/opencascade/BRepOffset_Status.hxx \
  /usr/local/include/opencascade/BRepPrimAPI_MakeBox.hxx \
  /usr/local/include/opencascade/BRepPrimAPI_MakeCone.hxx \
  /usr/local/include/opencascade/BRepPrimAPI_MakeCylinder.hxx \
@@ -90,6 +122,14 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  /usr/local/include/opencascade/BRep_TVertex.lxx \
  /usr/local/include/opencascade/BRep_Tool.hxx \
  /usr/local/include/opencascade/Bnd_Box.hxx \
+ /usr/local/include/opencascade/ChFiDS_TypeOfConcavity.hxx \
+ /usr/local/include/opencascade/GCE2d_MakeSegment.hxx \
+ /usr/local/include/opencascade/GCE2d_Root.hxx \
+ /usr/local/include/opencascade/GCE2d_Root.lxx \
+ /usr/local/include/opencascade/GC_MakeArcOfCircle.hxx \
+ /usr/local/include/opencascade/GC_MakeSegment.hxx \
+ /usr/local/include/opencascade/GC_Root.hxx \
+ /usr/local/include/opencascade/GC_Root.lxx \
  /usr/local/include/opencascade/Geom2d_BoundedCurve.hxx \
  /usr/local/include/opencascade/Geom2d_Conic.hxx \
  /usr/local/include/opencascade/Geom2d_Curve.hxx \
@@ -98,6 +138,7 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  /usr/local/include/opencascade/Geom2d_TrimmedCurve.hxx \
  /usr/local/include/opencascade/GeomAbs_BSplKnotDistribution.hxx \
  /usr/local/include/opencascade/GeomAbs_CurveType.hxx \
+ /usr/local/include/opencascade/GeomAbs_JoinType.hxx \
  /usr/local/include/opencascade/GeomAbs_Shape.hxx \
  /usr/local/include/opencascade/GeomFill_Trihedron.hxx \
  /usr/local/include/opencascade/GeomTools_Curve2dSet.hxx \
@@ -151,6 +192,8 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  /usr/local/include/opencascade/Poly_Triangle.hxx \
  /usr/local/include/opencascade/Poly_Triangulation.hxx \
  /usr/local/include/opencascade/Precision.hxx \
+ /usr/local/include/opencascade/ShapeBuild_ReShape.hxx \
+ /usr/local/include/opencascade/ShapeExtend_Status.hxx \
  /usr/local/include/opencascade/Standard.hxx \
  /usr/local/include/opencascade/Standard_Address.hxx \
  /usr/local/include/opencascade/Standard_Assert.hxx \
@@ -240,6 +283,7 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  /usr/local/include/opencascade/TopTools_DataMapOfShapeInteger.hxx \
  /usr/local/include/opencascade/TopTools_DataMapOfShapeListOfInteger.hxx \
  /usr/local/include/opencascade/TopTools_DataMapOfShapeListOfShape.hxx \
+ /usr/local/include/opencascade/TopTools_DataMapOfShapeReal.hxx \
  /usr/local/include/opencascade/TopTools_DataMapOfShapeShape.hxx \
  /usr/local/include/opencascade/TopTools_HArray2OfShape.hxx \
  /usr/local/include/opencascade/TopTools_IndexedDataMapOfShapeListOfShape.hxx \
@@ -252,6 +296,8 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  /usr/local/include/opencascade/TopTools_ShapeMapHasher.hxx \
  /usr/local/include/opencascade/TopTools_ShapeMapHasher.lxx \
  /usr/local/include/opencascade/TopTools_ShapeSet.hxx \
+ /usr/local/include/opencascade/TopoDS.hxx \
+ /usr/local/include/opencascade/TopoDS.lxx \
  /usr/local/include/opencascade/TopoDS_Builder.hxx \
  /usr/local/include/opencascade/TopoDS_Builder.lxx \
  /usr/local/include/opencascade/TopoDS_CompSolid.hxx \
@@ -290,6 +336,7 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  /usr/local/include/opencascade/TopoDS_Vertex.lxx \
  /usr/local/include/opencascade/TopoDS_Wire.hxx \
  /usr/local/include/opencascade/TopoDS_Wire.lxx \
+ /usr/local/include/opencascade/gce_ErrorType.hxx \
  /usr/local/include/opencascade/gp.hxx \
  /usr/local/include/opencascade/gp.lxx \
  /usr/local/include/opencascade/gp_Ax1.hxx \

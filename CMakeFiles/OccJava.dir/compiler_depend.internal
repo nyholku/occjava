@@ -396,6 +396,10 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o
  /usr/local/include/opencascade/gp_Parab.lxx
  /usr/local/include/opencascade/gp_Lin.hxx
  /usr/local/include/opencascade/gp_Lin.lxx
+ /usr/local/include/opencascade/TColStd_HArray1OfBoolean.hxx
+ /usr/local/include/opencascade/TColStd_Array1OfBoolean.hxx
+ /usr/local/include/opencascade/TColgp_HArray1OfPnt.hxx
+ /usr/local/include/opencascade/TColgp_Array1OfVec.hxx
  /usr/local/include/opencascade/TopoDS_CompSolid.hxx
  /usr/local/include/opencascade/TopoDS_CompSolid.lxx
  /usr/local/include/opencascade/TopoDS_Solid.hxx
@@ -421,6 +425,7 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o
  /usr/local/include/opencascade/TopoDS_TCompSolid.lxx
  /usr/local/include/opencascade/TopoDS_TCompound.hxx
  /usr/local/include/opencascade/TopoDS_TCompound.lxx
+ /usr/local/include/opencascade/TopTools_ListIteratorOfListOfShape.hxx
  /usr/local/include/opencascade/Geom_Curve.hxx
  /usr/local/include/opencascade/Geom_Geometry.hxx
  /usr/local/include/opencascade/Geom_Surface.hxx
@@ -429,7 +434,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o
  /usr/local/include/opencascade/Geom_BoundedCurve.hxx
  /usr/local/include/opencascade/Geom_BSplineCurve.hxx
  /usr/local/include/opencascade/GeomAbs_BSplKnotDistribution.hxx
- /usr/local/include/opencascade/TColgp_HArray1OfPnt.hxx
  /usr/local/include/opencascade/TColStd_HArray1OfReal.hxx
  /usr/local/include/opencascade/TColStd_HArray1OfInteger.hxx
  /usr/local/include/opencascade/TColStd_Array1OfInteger.hxx
@@ -466,6 +470,8 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o
  /usr/local/include/opencascade/TopoDS_TVertex.hxx
  /usr/local/include/opencascade/TopoDS_TVertex.lxx
  /usr/local/include/opencascade/BRep_TVertex.lxx
+ /usr/local/include/opencascade/GeomLProp_SLProps.hxx
+ /usr/local/include/opencascade/LProp_Status.hxx
  /usr/local/include/opencascade/BRepTools.hxx
  /usr/local/include/opencascade/Message_ProgressRange.hxx
  /usr/local/include/opencascade/Message_ProgressIndicator.hxx
@@ -541,9 +547,32 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o
  /usr/local/include/opencascade/TColStd_MapIntegerHasher.hxx
  /usr/local/include/opencascade/TColStd_SequenceOfBoolean.hxx
  /usr/local/include/opencascade/TColStd_SequenceOfInteger.hxx
- /usr/local/include/opencascade/TColStd_Array1OfBoolean.hxx
  /usr/local/include/opencascade/TColStd_SequenceOfReal.hxx
  /usr/local/include/opencascade/BRepBuilderAPI_Sewing.lxx
+ /usr/local/include/opencascade/BRepOffsetAPI_NormalProjection.hxx
+ /usr/local/include/opencascade/BRepAlgo_NormalProjection.hxx
+ /usr/local/include/opencascade/BRepOffsetAPI_MakeOffsetShape.hxx
+ /usr/local/include/opencascade/BRepOffset_MakeOffset.hxx
+ /usr/local/include/opencascade/BRepOffset_Mode.hxx
+ /usr/local/include/opencascade/GeomAbs_JoinType.hxx
+ /usr/local/include/opencascade/TopTools_DataMapOfShapeReal.hxx
+ /usr/local/include/opencascade/BRepOffset_Analyse.hxx
+ /usr/local/include/opencascade/BRepOffset_DataMapOfShapeListOfInterval.hxx
+ /usr/local/include/opencascade/BRepOffset_ListOfInterval.hxx
+ /usr/local/include/opencascade/BRepOffset_Interval.hxx
+ /usr/local/include/opencascade/ChFiDS_TypeOfConcavity.hxx
+ /usr/local/include/opencascade/BRepOffset_Interval.lxx
+ /usr/local/include/opencascade/BRepAlgo_Image.hxx
+ /usr/local/include/opencascade/BRepOffset_Error.hxx
+ /usr/local/include/opencascade/BRepOffset_MakeLoops.hxx
+ /usr/local/include/opencascade/BRepOffset_DataMapOfShapeOffset.hxx
+ /usr/local/include/opencascade/BRepOffset_Offset.hxx
+ /usr/local/include/opencascade/BRepOffset_Status.hxx
+ /usr/local/include/opencascade/BRepOffset_Offset.lxx
+ /usr/local/include/opencascade/BRepOffset_MakeSimpleOffset.hxx
+ /usr/local/include/opencascade/ShapeBuild_ReShape.hxx
+ /usr/local/include/opencascade/ShapeExtend_Status.hxx
+ /usr/local/include/opencascade/BRepOffsetAPI_MakeThickSolid.hxx
  /usr/local/include/opencascade/BRepPrimAPI_MakeBox.hxx
  /usr/local/include/opencascade/BRepPrim_Wedge.hxx
  /usr/local/include/opencascade/BRepPrim_GWedge.hxx
@@ -586,6 +615,62 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o
  /usr/local/include/opencascade/NCollection_DefineArray2.hxx
  /usr/local/include/opencascade/BRepFill_DataMapOfShapeHArray2OfShape.hxx
  /usr/local/include/opencascade/GeomFill_Trihedron.hxx
+ /usr/local/include/opencascade/BRepAlgoAPI_BooleanOperation.hxx
+ /usr/local/include/opencascade/BOPAlgo_Operation.hxx
+ /usr/local/include/opencascade/BRepAlgoAPI_BuilderAlgo.hxx
+ /usr/local/include/opencascade/BOPAlgo_GlueEnum.hxx
+ /usr/local/include/opencascade/BOPAlgo_PPaveFiller.hxx
+ /usr/local/include/opencascade/BOPAlgo_PBuilder.hxx
+ /usr/local/include/opencascade/BRepAlgoAPI_Algo.hxx
+ /usr/local/include/opencascade/BOPAlgo_Options.hxx
+ /usr/local/include/opencascade/Message_Report.hxx
+ /usr/local/include/opencascade/Message_Gravity.hxx
+ /usr/local/include/opencascade/Message_Level.hxx
+ /usr/local/include/opencascade/Message.hxx
+ /usr/local/include/opencascade/Message_Messenger.hxx
+ /usr/local/include/opencascade/Message_SequenceOfPrinters.hxx
+ /usr/local/include/opencascade/Message_Printer.hxx
+ /usr/local/include/opencascade/TCollection_HAsciiString.hxx
+ /usr/local/include/opencascade/TCollection_HAsciiString.lxx
+ /usr/local/include/opencascade/TCollection_HExtendedString.hxx
+ /usr/local/include/opencascade/TCollection_ExtendedString.hxx
+ /usr/local/include/opencascade/Standard_PExtCharacter.hxx
+ /usr/local/include/opencascade/Message_MetricType.hxx
+ /usr/local/include/opencascade/NCollection_Vector.hxx
+ /usr/local/include/opencascade/NCollection_BaseVector.hxx
+ /usr/local/include/opencascade/OSD_MemInfo.hxx
+ /usr/local/include/opencascade/Message_AlertExtended.hxx
+ /usr/local/include/opencascade/Message_Alert.hxx
+ /usr/local/include/opencascade/Message_ListOfAlert.hxx
+ /usr/local/include/opencascade/BRepAlgoAPI_Fuse.hxx
+ /usr/local/include/opencascade/BRepAlgoAPI_Common.hxx
+ /usr/local/include/opencascade/BRepAlgoAPI_Cut.hxx
+ /usr/local/include/opencascade/BRepAlgoAPI_Section.hxx
+ /usr/local/include/opencascade/BRepLib.hxx
+ /usr/local/include/opencascade/TopoDS.hxx
+ /usr/local/include/opencascade/TopoDS.lxx
+ /usr/local/include/opencascade/BRepCheck_Analyzer.hxx
+ /usr/local/include/opencascade/BRepCheck_DataMapOfShapeResult.hxx
+ /usr/local/include/opencascade/BRepCheck_Result.hxx
+ /usr/local/include/opencascade/BRepCheck_DataMapOfShapeListOfStatus.hxx
+ /usr/local/include/opencascade/BRepCheck_ListOfStatus.hxx
+ /usr/local/include/opencascade/BRepCheck_Status.hxx
+ /usr/local/include/opencascade/BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus.hxx
+ /usr/local/include/opencascade/BRepCheck_Result.lxx
+ /usr/local/include/opencascade/TopTools_OrientedShapeMapHasher.hxx
+ /usr/local/include/opencascade/TopTools_OrientedShapeMapHasher.lxx
+ /usr/local/include/opencascade/BRepCheck_Analyzer.lxx
+ /usr/local/include/opencascade/ShapeUpgrade_RemoveInternalWires.hxx
+ /usr/local/include/opencascade/ShapeUpgrade_Tool.hxx
+ /usr/local/include/opencascade/ShapeUpgrade_Tool.lxx
+ /usr/local/include/opencascade/ShapeUpgrade_RemoveInternalWires.lxx
+ /usr/local/include/opencascade/ShapeExtend.hxx
+ /usr/local/include/opencascade/ShapeUpgrade_ShapeDivideArea.hxx
+ /usr/local/include/opencascade/ShapeUpgrade_ShapeDivide.hxx
+ /usr/local/include/opencascade/ShapeUpgrade_ShapeDivideArea.lxx
+ /usr/local/include/opencascade/GeomAPI_PointsToBSpline.hxx
+ /usr/local/include/opencascade/GeomAPI_Interpolate.hxx
+ /usr/local/include/opencascade/TColgp_HArray1OfVec.hxx
  /usr/local/include/opencascade/TopExp_Explorer.hxx
  /usr/local/include/opencascade/TopExp_Stack.hxx
  /usr/local/include/opencascade/TopExp_Explorer.lxx
@@ -633,12 +718,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o
  /usr/local/include/opencascade/Message_Status.hxx
  /usr/local/include/opencascade/TColStd_HArray1OfTransient.hxx
  /usr/local/include/opencascade/TColStd_Array1OfTransient.hxx
- /usr/local/include/opencascade/Message_Gravity.hxx
- /usr/local/include/opencascade/TCollection_HAsciiString.hxx
- /usr/local/include/opencascade/TCollection_HAsciiString.lxx
- /usr/local/include/opencascade/TCollection_HExtendedString.hxx
- /usr/local/include/opencascade/TCollection_ExtendedString.hxx
- /usr/local/include/opencascade/Standard_PExtCharacter.hxx
  /usr/local/include/opencascade/TColStd_HSequenceOfHExtendedString.hxx
  /usr/local/include/opencascade/TColStd_SequenceOfHExtendedString.hxx
  /usr/local/include/opencascade/Message_HArrayOfMsg.hxx
@@ -647,8 +726,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o
  /usr/local/include/opencascade/Message_Algorithm.lxx
  /usr/local/include/opencascade/IMeshData_Model.hxx
  /usr/local/include/opencascade/IMeshData_Types.hxx
- /usr/local/include/opencascade/NCollection_Vector.hxx
- /usr/local/include/opencascade/NCollection_BaseVector.hxx
  /usr/local/include/opencascade/NCollection_Shared.hxx
  /usr/local/include/opencascade/NCollection_StdAllocator.hxx
  /usr/local/include/opencascade/IMeshData_ParametersListArrayAdaptor.hxx
