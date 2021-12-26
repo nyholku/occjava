@@ -71,7 +71,7 @@ class Handle_Geom_Geometry
     return ($javaclassname)Standard_Transient.downcastHandle(cPtr, $javaclassname.class);
 }
 
-class Handle_Geom_Curve: public Handle_Geom_Geometry
+class Handle_Geom_Curve //: public Handle_Geom_Geometry
 {
 	Handle_Geom_Curve()=0;
 };
@@ -106,7 +106,7 @@ class Handle_Geom_Curve: public Handle_Geom_Geometry
 	}
 }
 
-class Handle_Geom_Surface: public Handle_Geom_Geometry
+class Handle_Geom_Surface // : public Handle_Geom_Geometry
 {
 	Handle_Geom_Surface()=0;
 };
@@ -170,7 +170,7 @@ class Handle_Geom2d_Geometry
 	Handle_Geom2d_Geometry()=0;
 };
 
-class Handle_Geom2d_Curve: public Handle_Geom2d_Geometry
+class Handle_Geom2d_Curve // : public Handle_Geom2d_Geometry
 {
 	Handle_Geom2d_Curve()=0;
 };
@@ -185,11 +185,13 @@ class Handle_Geom2d_Curve: public Handle_Geom2d_Geometry
 }
 
 
-class Handle_Geom_BoundedCurve : public Handle_Geom_Curve {
+class Handle_Geom_BoundedCurve // : public Handle_Geom_Curve
+{
 	Handle_Geom_BoundedCurve()=0;
 };
 
-class Handle_Geom_BSplineCurve : public Handle_Geom_BoundedCurve {
+class Handle_Geom_BSplineCurve // : public Handle_Geom_BoundedCurve
+{
 	Handle_Geom_BSplineCurve()=0;
 };
 
@@ -324,11 +326,13 @@ class Handle_Geom_BSplineCurve : public Handle_Geom_BoundedCurve {
 
 }
 
-class Handle_Geom_TrimmedCurve : public Handle_Geom_BoundedCurve {
+class Handle_Geom_TrimmedCurve // : public Handle_Geom_BoundedCurve
+{
 	Handle_Geom_TrimmedCurve()=0;
 };
 
-class Handle_Geom_ElementarySurface : public Handle_Geom_Surface {
+class Handle_Geom_ElementarySurface // : public Handle_Geom_Surface
+{
 	Handle_Geom_ElementarySurface()=0;
 };
 
@@ -339,11 +343,13 @@ class Handle_Geom_ElementarySurface : public Handle_Geom_Surface {
 	}
 }
 
-class Handle_Geom_Plane: public Handle_Geom_ElementarySurface {
+class Handle_Geom_Plane // : public Handle_Geom_ElementarySurface
+{
        Handle_Geom_Plane()=0;
 };
 
-class Handle_Geom_CylindricalSurface : public Handle_Geom_ElementarySurface {
+class Handle_Geom_CylindricalSurface // : public Handle_Geom_ElementarySurface
+{
 	Handle_Geom_CylindricalSurface()=0;
 };
 
@@ -355,11 +361,13 @@ class Handle_Geom_CylindricalSurface : public Handle_Geom_ElementarySurface {
 	}
 }
 
-class Handle_Geom2d_Conic : public Handle_Geom2d_Curve {
+class Handle_Geom2d_Conic // : public Handle_Geom2d_Curve
+{
 	Handle_Geom2d_Conic()=0;
 };
 
-class Handle_Geom2d_Ellipse : public Handle_Geom2d_Conic {
+class Handle_Geom2d_Ellipse // : public Handle_Geom2d_Conic
+{
 	Handle_Geom2d_Ellipse()=0;
 };
 
@@ -371,11 +379,13 @@ class Handle_Geom2d_Ellipse : public Handle_Geom2d_Conic {
 	}
 }
 
-class Handle_Geom2d_BoundedCurve : public Handle_Geom2d_Curve {
+class Handle_Geom2d_BoundedCurve // : public Handle_Geom2d_Curve
+{
 	Handle_Geom2d_BoundedCurve()=0;
 };
 
-class Handle_Geom2d_TrimmedCurve : public Handle_Geom2d_BoundedCurve {
+class Handle_Geom2d_TrimmedCurve // : public Handle_Geom2d_BoundedCurve
+{
 	Handle_Geom2d_TrimmedCurve()=0;
 };
 
@@ -387,9 +397,3 @@ public:
 	return new Handle_Geom2d_TrimmedCurve(new Geom2d_TrimmedCurve(C,U1,U2,Sense));
 	}
 }
-
-//--------------------
-
-class Handle_Geom_Curve : public Handle_Geom_Geometry {
-	Handle_Geom_Curve()=0;
-};
