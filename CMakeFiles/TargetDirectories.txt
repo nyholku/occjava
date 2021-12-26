@@ -1,0 +1,4 @@
+/Users/nyholku/jCAE/occjava3/CMakeFiles/OccJava.dir
+/Users/nyholku/jCAE/occjava3/CMakeFiles/OccJava_swig_compilation.dir
+/Users/nyholku/jCAE/occjava3/CMakeFiles/edit_cache.dir
+/Users/nyholku/jCAE/occjava3/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,273 @@
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..f045603
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,80 @@
++.pc
++*.o
++*.class
++*.a
++*.dll
++ros/adm/mingw/FWOSPlugin/
++ros/adm/mingw/PTKernel/
++ros/adm/mingw/TKAdvTools/
++ros/adm/mingw/TKBO/
++ros/adm/mingw/TKBRep/
++ros/adm/mingw/TKBin/
++ros/adm/mingw/TKBinL/
++ros/adm/mingw/TKBinTObj/
++ros/adm/mingw/TKBinXCAF/
++ros/adm/mingw/TKBool/
++ros/adm/mingw/TKCAF/
++ros/adm/mingw/TKCDF/
++ros/adm/mingw/TKCDLFront/
++ros/adm/mingw/TKCPPClient/
++ros/adm/mingw/TKCPPExt/
++ros/adm/mingw/TKCPPIntExt/
++ros/adm/mingw/TKCPPJini/
++ros/adm/mingw/TKCSFDBSchema/
++ros/adm/mingw/TKDCAF/
++ros/adm/mingw/TKDraw/
++ros/adm/mingw/TKFeat/
++ros/adm/mingw/TKFillet/
++ros/adm/mingw/TKG2d/
++ros/adm/mingw/TKG3d/
++ros/adm/mingw/TKGeomAlgo/
++ros/adm/mingw/TKGeomBase/
++ros/adm/mingw/TKHLR/
++ros/adm/mingw/TKIDLFront/
++ros/adm/mingw/TKIGES/
++ros/adm/mingw/TKLCAF/
++ros/adm/mingw/TKMath/
++ros/adm/mingw/TKMesh/
++ros/adm/mingw/TKMeshVS/
++ros/adm/mingw/TKNIS/
++ros/adm/mingw/TKOffset/
++ros/adm/mingw/TKOpenGl/
++ros/adm/mingw/TKPCAF/
++ros/adm/mingw/TKPLCAF/
++ros/adm/mingw/TKPShape/
++ros/adm/mingw/TKPrim/
++ros/adm/mingw/TKSTEP/
++ros/adm/mingw/TKSTEP209/
++ros/adm/mingw/TKSTEPAttr/
++ros/adm/mingw/TKSTEPBase/
++ros/adm/mingw/TKSTL/
++ros/adm/mingw/TKService/
++ros/adm/mingw/TKShHealing/
++ros/adm/mingw/TKShapeSchema/
++ros/adm/mingw/TKStdLSchema/
++ros/adm/mingw/TKStdSchema/
++ros/adm/mingw/TKTCPPExt/
++ros/adm/mingw/TKTObj/
++ros/adm/mingw/TKTObjDRAW/
++ros/adm/mingw/TKTopAlgo/
++ros/adm/mingw/TKTopTest/
++ros/adm/mingw/TKV2d/
++ros/adm/mingw/TKV3d/
++ros/adm/mingw/TKVRML/
++ros/adm/mingw/TKViewerTest/
++ros/adm/mingw/TKWOK/
++ros/adm/mingw/TKWOKTcl/
++ros/adm/mingw/TKXCAF/
++ros/adm/mingw/TKXCAFSchema/
++ros/adm/mingw/TKXDEDRAW/
++ros/adm/mingw/TKXDEIGES/
++ros/adm/mingw/TKXDESTEP/
++ros/adm/mingw/TKXMesh/
++ros/adm/mingw/TKXSBase/
++ros/adm/mingw/TKXSDRAW/
++ros/adm/mingw/TKXml/
++ros/adm/mingw/TKXmlL/
++ros/adm/mingw/TKXmlTObj/
++ros/adm/mingw/TKXmlXCAF/
++ros/adm/mingw/TKjcas/
++ros/mingw/
+diff --git a/ros/adm/mingw/Makefile b/ros/adm/mingw/Makefile
+new file mode 100644
+index 0000000..6350613
+--- /dev/null
++++ b/ros/adm/mingw/Makefile
+@@ -0,0 +1,34 @@
++all:
++	./pywok.py
++	$(MAKE) -C TKernel
++	$(MAKE) -C TKMath
++	$(MAKE) -C TKAdvTools
++	$(MAKE) -C TKG2d
++	$(MAKE) -C TKG3d
++	$(MAKE) -C TKGeomBase
++	$(MAKE) -C TKBRep
++	$(MAKE) -C TKGeomAlgo
++	$(MAKE) -C TKTopAlgo
++	$(MAKE) -C TKPrim
++	$(MAKE) -C TKBO
++	$(MAKE) -C TKHLR
++	$(MAKE) -C TKMesh
++	$(MAKE) -C TKShHealing
++	$(MAKE) -C TKBool
++	$(MAKE) -C TKXMesh
++	$(MAKE) -C TKFillet
++	$(MAKE) -C TKFeat
++	$(MAKE) -C TKOffset
++	$(MAKE) -C TKXSBase
++	$(MAKE) -C TKSTEPBase
++	$(MAKE) -C TKSTEPAttr
++	$(MAKE) -C TKSTEP209
++	$(MAKE) -C TKSTEP
++	$(MAKE) -C TKIGES
++	$(MAKE) -C TKService
++	$(MAKE) -C TKV2d
++	$(MAKE) -C TKV3d
++
++clean:
++	rm -rf OCCMingw*.class TKernel FWOSPlugin PTKernel TKAdvTools TKBO TKBRep TKBin TKBinL TKBinTObj TKBinXCAF TKBool TKCAF TKCDF TKCDLFront TKCPPClient TKCPPExt TKCPPIntExt TKCPPJini TKCSFDBSchema TKDCAF TKDraw TKFeat TKFillet TKG2d TKG3d TKGeomAlgo TKGeomBase TKHLR TKIDLFront TKIGES TKLCAF TKMath TKMesh TKMeshVS TKNIS TKOffset TKOpenGl TKPCAF TKPLCAF TKPShape TKPrim TKSTEP TKSTEP209 TKSTEPAttr TKSTEPBase TKSTL TKService TKShHealing TKShapeSchema TKStdLSchema TKStdSchema TKTCPPExt TKTObj TKTObjDRAW TKTopAlgo TKTopTest TKV2d TKV3d TKVRML TKViewerTest TKWOK TKWOKTcl TKXCAF TKXCAFSchema TKXDEDRAW TKXDEIGES TKXDESTEP TKXMesh TKXSBase TKXSDRAW TKXml TKXmlL TKXmlTObj TKXmlXCAF TKjcas 
++
+diff --git a/ros/adm/mingw/header.mk b/ros/adm/mingw/header.mk
+new file mode 100644
+index 0000000..ee3efb7
+--- /dev/null
++++ b/ros/adm/mingw/header.mk
+@@ -0,0 +1,40 @@
++CC := i586-mingw32msvc-gcc
++CXX := i586-mingw32msvc-g++
++CASROOT := ../../..
++DRV := $(CASROOT)/drv
++SRC := $(CASROOT)/src
++BIN := $(CASROOT)/mingw/bin
++LIB := $(CASROOT)/mingw/lib
++CPPFLAGS := -I$(CASROOT)/inc/ -DWNT -D__MATH_WNT_H -DHAVE_NO_DLL
++CXXFLAGS := -O2 -march=pentium3 -fno-strict-aliasing
++LDFLAGS := -shared -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,-export-all-symbols
++TKernelFLAGS := -lwinspool -lws2_32 -lgdi32
++TKMathFLAGS := -lTKernel
++TKAdvToolsFLAGS := -lTKernel
++TKG2dFLAGS := -lTKernel -lTKMath
++TKG3dFLAGS := -lTKernel -lTKG2d -lTKMath
++TKGeomBaseFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath
++TKBRepFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath -lTKGeomBase
++TKGeomAlgoFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath -lTKGeomBase -lTKBRep
++TKTopAlgoFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath -lTKGeomBase -lTKGeomAlgo -lTKBRep
++TKPrimFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath -lTKGeomBase -lTKTopAlgo -lTKBRep
++TKHLRFLAGS := -lTKernel -lTKGeomBase -lTKG3d -lTKTopAlgo -lTKMath -lTKGeomAlgo -lTKBRep -lTKG2d
++TKBOFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath -lTKGeomBase -lTKTopAlgo -lTKBRep -lTKGeomAlgo
++TKMeshFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath -lTKGeomBase -lTKTopAlgo -lTKBRep -lTKGeomAlgo
++TKShHealingFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath -lTKGeomBase -lTKTopAlgo -lTKBRep -lTKGeomAlgo
++TKBoolFLAGS := -lTKernel -lTKGeomAlgo -lTKG3d -lTKShHealing -lTKGeomBase -lTKTopAlgo -lTKMath -lTKBO -lTKG2d -lTKBRep -lTKPrim
++TKXMeshFLAGS := -lTKernel -lTKG2d -lTKMath -lTKMesh
++TKFilletFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath -lTKGeomBase -lTKTopAlgo -lTKBRep -lTKGeomAlgo -lTKBool
++TKFeatFLAGS := -lTKernel -lTKG2d -lTKG3d -lTKMath -lTKGeomBase -lTKTopAlgo -lTKBRep -lTKGeomAlgo -lTKBO -lTKPrim -lTKBool
++TKOffsetFLAGS := -lTKBool -lTKGeomAlgo -lTKernel -lTKGeomBase -lTKTopAlgo -lTKMath -lTKBO -lTKG2d -lTKG3d -lTKBRep -lTKShHealing -lTKFillet -lTKPrim
++TKXSBaseFLAGS := -lTKernel -lTKMath -lTKG2d -lTKG3d -lTKShHealing -lTKBRep -lTKGeomBase -lTKTopAlgo
++TKSTEPBaseFLAGS := -lTKernel -lTKXSBase -lTKMath
++TKSTEPFLAGS := -lTKernel -lTKXSBase -lTKSTEPBase -lTKSTEPAttr -lTKMath -lTKG3d -lTKG2d -lTKShHealing -lTKSTEP209 -lTKGeomBase -lTKBRep -lTKGeomAlgo -lTKTopAlgo -lws2_32
++TKIGESFLAGS := -lTKernel -lTKXSBase -lTKSTEPBase -lTKSTEPAttr -lTKMath -lTKG3d -lTKG2d -lTKShHealing -lTKSTEP209 -lTKGeomBase -lTKBRep -lTKGeomAlgo -lTKTopAlgo -lTKPrim -lTKBool
++TKSTEPAttrFLAGS := -lTKSTEPBase -lTKernel -lTKXSBase
++TKSTEP209FLAGS := -lTKSTEPBase -lTKernel -lTKXSBase
++TKServiceFLAGS := -lTKernel -lTKMath -lgdi32 -lwinspool
++TKV2dFLAGS := -lTKernel -lTKService -lTKG3d -lTKTopAlgo -lTKMath -lTKBRep -lTKGeomBase -lTKG2d -lTKHLR -lTKGeomAlgo
++TKV3dFLAGS := -lTKernel -lTKG3d -lTKTopAlgo -lTKGeomBase -lTKService -lTKMath -lTKMesh -lTKGeomAlgo -lTKHLR -lTKBRep -lTKG2d -lTKV2d -lcomdlg32 -lgdi32
++
++
+diff --git a/ros/adm/mingw/pywok.py b/ros/adm/mingw/pywok.py
+new file mode 100755
+index 0000000..3c7bc25
+--- /dev/null
++++ b/ros/adm/mingw/pywok.py
+@@ -0,0 +1,95 @@
++#! /usr/bin/python
++
++# Use of EXTERNLIB is currently disabled because TKernel/EXTERNLIB
++# contains strings which are not libs
++
++import os
++
++def parse_list(pdir, key):
++    pfile = os.path.join(pdir, key)
++    toreturn=[]
++    try:
++        f = open(pfile)
++        for l in f:
++            s = l.strip()
++            if len(s)>0:
++                toreturn.append(s)
++        f.close()
++    except IOError:
++        pass
++    return toreturn
++
++def to_ld_param(libs):
++    toreturn=[]
++    for l in libs:
++        toreturn.append(" -l"+l)
++    return " ".join(toreturn)
++
++def create_makefile(name, packages, externlibs):
++    try:
++        os.mkdir(name)
++    except OSError:
++        pass
++
++    out=open(os.path.join(name, "Makefile"), "w")
++
++    try:
++        packages.remove("Xw")
++    except ValueError:
++        pass
++
++    try:
++        packages.remove("ImageUtility")
++    except ValueError:
++        pass
++
++    out.write("include ../header.mk\n")
++
++    for p in packages:
++        out.write("""
++objects += $(patsubst %%.cxx,%%.o,$(notdir $(wildcard $(SRC)/%s/*.cxx)))
++objects += $(patsubst %%.c,%%.o,$(notdir $(wildcard $(SRC)/%s/*.c)))
++objects += $(patsubst %%.cxx,%%.o,$(notdir $(wildcard $(DRV)/%s/*.cxx)))
++objects += $(patsubst %%.c,%%.o,$(notdir $(wildcard $(DRV)/%s/*.c)))
++""" % (p,p,p,p))
++
++    for p in packages:
++        out.write("""
++%%.o : $(SRC)/%s/%%.cxx
++	$(CXX) $(CPPFLAGS) -I$(DRV)/%s -I$(SRC)/%s  -c $(CXXFLAGS) -o $@ $<
++%%.o : $(DRV)/%s/%%.cxx
++	$(CXX) $(CPPFLAGS) -I$(DRV)/%s -I$(SRC)/%s  -c $(CXXFLAGS) -o $@ $<
++%%.o : $(SRC)/%s/%%.c
++	$(CC)  $(CPPFLAGS) -I$(DRV)/%s -I$(SRC)/%s  -c $(CFLAGS) -o $@ $<
++%%.o : $(DRV)/%s/%%.c
++	$(CC)  $(CPPFLAGS) -I$(DRV)/%s -I$(SRC)/%s  -c $(CFLAGS) -o $@ $<
++""" % (p,p,p, p,p,p, p,p,p, p,p,p))
++
++    out.write("""
++$(BIN)/%s.dll : $(objects)
++	mkdir -p $(LIB) $(BIN)
++	$(CXX) $(LDFLAGS) -L$(LIB) -o $@ $^ $(%sFLAGS) -Wl,--out-implib,$(LIB)/lib%s.a
++""" % (name, name, name))
++    out.close();
++
++def search_libs(package, libdict):
++    try:
++        l=libdict[package]
++    except KeyError:
++        l=[]
++    toreturn=[]
++    toreturn.extend(l)
++    for p in l:
++        toreturn.extend(search_libs(p, libdict))
++    return toreturn
++
++externlibs={}
++packages={}
++for dir in os.listdir("../../src"):
++    pdir = os.path.join("../../src", dir)
++    packages[dir]=parse_list(pdir, "PACKAGES")
++    externlibs[dir]=parse_list(pdir, "EXTERNLIB")
++
++for dir, plist in packages.iteritems():
++    if len(plist)>0:
++        create_makefile(dir, plist, search_libs(dir, externlibs))

@@ -1,0 +1,302 @@
+2009-05-04 23:31:56 Denis Barbier <barbier@users.sourceforge.net>
+
+	* src/GeomAbs.i: Drop GeomAbs_C0, GeomAbs_C1, etc.
+	These members have been obsoleted a long time ago and are
+	no more used.
+
+2009-05-04 21:22:49 Denis Barbier <barbier@users.sourceforge.net>
+
+	* src/OccJava.i: Replace %include "enumtypeunsafe.swg" by
+	%include "enums.swg" to use Java 1.5 enums.  The following
+	classes are thus modified: ChFi3d_FilletShape, GeomAbs_Shape,
+	IFSelect_ReturnStatus, TopAbs_ShapeEnum, TopAbs_Orientation
+	and STEPControl_StepModelType.
+
+2009-04-30 12:17:58 Denis Barbier <barbier@users.sourceforge.net>
+
+	* src/OccJava.i: In BRepGProp, add SurfaceProperties and
+	VolumeProperties variants with an epsilon parameter.
+
+2008-10-14 09:56:03  Denis Barbier <barbier@users.sourceforge.net>
+
+	* src/OccJava.i: Fix compilation with OpenCASCADE 6.3.0, BRepMesh
+	  API has changed.
+
+2008-01-31 15:33  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/XSControl.i: Implement STEPControl_Reader.getLabel to
+	  retrieve STEP labels
+
+2007-11-13 12:50  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/org/jcae/opencascade/test/FixSmallEdges.java,
+	  src/Makefile.am, src/OccJava.i, src/ShapeFix.i: Add classes to
+	  remove small edges
+
+2007-09-28 08:33  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/org/jcae/opencascade/test/CircleExtrudeQuilt.java: Write
+	  the output file to the system dependent temporary directory.
+
+2007-09-24 15:48  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/org/jcae/opencascade/Utilities.java, src/Makefile.am,
+	  src/OccJava.i, src/XSControl.i: Fix charset encoding problems
+	  when reading STEP or IGES files
+
+2007-08-22 09:40  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* configure.ac: Link to required libTKFillet.so
+
+	* src/gp.i: Add gp_Pln typemap. It allows to easily add method
+	  which use gp_Pln as input or output. gp_Pln is mapped to
+	  double[4].
+
+2007-07-19 09:49  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* README: Add list of required OCC libraries
+
+2007-06-29 15:18  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/org/jcae/opencascade/test/NativeStream.java: Test
+	  reading empty stream
+
+2007-06-26 07:25  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/OccJava.i: Fix a segfault in Bnd_Box.get
+
+2007-06-25 08:35  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/org/jcae/opencascade/Utilities.java: Add
+	  Utilities.tolerance method
+
+2007-06-21 16:39  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/org/jcae/opencascade/test/SplitFace.java,
+	  src/ShapeUpgrade.i: Add ShapeUpgade_ShapeDivideArea
+
+	* src-java/org/jcae/opencascade/test/HoleFilletChamfer.java,
+	  src/Makefile.am, src/OccJava.i, src/ShapeUpgrade.i: Add
+	  ShapeUpgrade_RemoveInternalWires
+
+2007-06-19 13:59  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/Poly.i, src/gp.i: Return uv nodes from Poly_Triangulation
+	  (contrib Erwann)
+
+	* src/GeomLProp_SLProps.i: Adding normal array computation on
+	  GeomLProp_SLProps. This is faster than doing it on one value at a
+	  time. (contrib Erwann)
+
+	* src/OccJava.i: Fix a NullPointerException when MMGT_OPT is not
+	  set
+
+2007-06-14 12:40  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/org/jcae/opencascade/Utilities.java: Display tolerance
+	  in Utilities.dump
+
+2007-05-21 14:12  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/org/jcae/opencascade/test/: Add many examples
+
+2007-05-14 14:30  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* build.xml, src-java/org/jcae/opencascade/test, src-java/test:
+	  Rename test package to org.jcae.opencascade.test.
+
+2007-05-11 16:10  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/BRepBuilderAPI.i: Change BRepBuilderAPI::Load to load
+
+2007-05-10 13:24  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* README, src-java/test/Test7.java, src/BRepTools.i,
+	  src/Standard.i: Add istream typemap
+
+	* src/OccJava.i: Throw an exception if MMGT_OPT is not set to 0
+
+	* src/gp.i: Fix GeomLProp_SLProps::tangent* methods
+
+2007-05-03 11:33  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* Makefile.am, build.xml,
+	  src-java/org/jcae/opencascade/jni/BRepOffsetAPI_Sewing.java,
+	  src/BRepBuilderAPI.i, src/BRepOffsetAPI_Sewing.i,
+	  src/Makefile.am, src/OccJava.i: Merge BRepOffsetAPI_Sewing with
+	  BRepBuilderAPI_Sewing and make it deprecated. Run ant from the
+	  Makefile.
+
+2007-05-03 10:18  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* occjava-swig.vcproj: Fix compilation on Windows which was broken
+	  since the addition on fille and chamfer class (contrib Erwann
+	  Feat)
+
+2007-05-03 10:16  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/BRepBuilderAPI.i, src/BRepCheck.i, src/Geom.i, src/OccJava.i,
+	  src/ShapeBuild.i: Add BRepCheck_Analyzer, ShapeBuild_ReShape,
+	  BRepBuilderAPI_Sewing, more Geom_Surface methods (contrib Erwann
+	  Feat)
+
+2007-05-02 04:06  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/OccJava.i: add BRepGProp::SurfaceProperties and
+	  BRepGProp::VolumeProperties
+
+2006-04-26 14:25  tag V0_14_1
+
+2007-04-26 12:54  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* build.xml: Exclude tests from the release jar
+
+2007-04-24 17:04  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/BRepPrimAPI.i: add BRepPrimAPI_MakeRevol
+
+2007-04-23 15:11  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/test/Test6.java, src/BRepFilletAPI.i, src/Makefile.am,
+	  src/OccJava.i: Allow to make fillet and chamfer
+	* src-java/org/jcae/opencascade/Utilities.java,
+	  src-java/test/Utilities.java: Move utilities from test to
+	  official package. This class should not be used outside jCAE as
+	  it's API may change.
+
+2007-04-17 11:04:53  Denis Barbier <barbier@users.sourceforge.net>
+
+	* configure.ac: Remove -Wl,-rpath-link linker flag, it is
+	  not supported on Darwin, environment variables are set
+	  instead.  Thanks to nyholku
+	  https://sf.net/forum/message.php?msg_id=4255715
+	* acsite.m4: We only support javac for now, check it first
+	  before other Java compiler alternatives.  This can be
+	  overridden by JAVAC configure command-line flag.
+
+2007-04-12 10:35:52  Denis Barbier <barbier@users.sourceforge.net>
+
+	* acsite.m4: Fix JVM detection on Darwin, thanks to nyholku
+	  https://sf.net/forum/message.php?msg_id=4255715
+
+2007-04-10 10:59:04  Denis Barbier <barbier@users.sourceforge.net>
+
+	* autogen.sh: Fix bashism, patch by nyholku
+	  https://sf.net/forum/message.php?msg_id=4249115
+	* configure.ac: Replace AC_CONFIG_HEADERS by AM_CONFIG_HEADER.
+	  Patch by nyholku https://sf.net/forum/message.php?msg_id=4249115
+
+2006-04-04 10:27:00  tag V0_14
+
+2007-03-30 07:42:00  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/test/Test4.java, src/BRepBuilderAPI.i, src/BRepTools.i,
+	  src/gp.i: Add BRepTools_Quilt and gp_Circ, allow to create holed
+	  faces and circles
+
+2007-03-07 09:12:00  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/BRepPrimAPI.i: Add BRepPrimAPI_MakePrism
+
+2006-11-20 11:19:00  Denis Barbier <barbier@users.sourceforge.net>
+
+	* src-java/test/Test1.java: Compute vertex1 parameters on the
+	  surface
+
+2006-11-20 10:49:00  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src-java/test/Test1.java, src/BRep.i, src/BRep_Tool.i,
+	  src/Makefile.am, src/OccJava.i, src/TopoDS.i: Allow to set UV
+	  coords of a vertex on a face. Move some class as I would like to
+	  have one .i file by OCC package.
+
+2006-10-23 15:00:47  tag V0_13_2
+
+2006-10-23 15:00:47  Denis Barbier <barbier@users.sourceforge.net>
+
+	* src/GeomLProp_SLProps.i:
+	  Really fix GLProp_SLProp::normal
+
+2006-04-07 14:03:35  tag V0_13_1
+2006-04-07 14:03:35  tag V0_13
+
+2006-04-07 14:03:35  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/GeomLProp_SLProps.i, src/gp.i:
+	  Fix a bug in GLProp_SLProp::normal which gave an error message when meshing a cone
+	* src/Standard.i: Catch Opencascade exceptions.
+
+2006-04-06 12:40:14  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/Geom.i, src/GeomLProp_SLProps.i, src/gp.i:
+	  Fix a bug Geom_Surface::Value.
+
+2006-04-04 14:57:16  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* Makefile.am, autogen.sh, src/Makefile.am:
+	  Fix "make clean"
+	* src/BRepTools.i:
+	  Port to Opencascade 6.1
+	* src-java/test/Test3.java, src-java/test/Utilities.java:
+	  Add test for BRep_Builder.remove
+
+2006-04-03 10:44:54  Denis Barbier <barbier@users.sourceforge.net>
+
+	* build.bat:
+	  Set VS80COMNTOOLS variable so that vcvars32.bat can be found
+
+2006-03-31 17:07:13  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* build.bat:
+	  Add a batch script to build occjava from the command line on Windows.
+
+2006-03-30 12:10:49  tag V0_12_2
+
+2006-03-30 12:10:49  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* configure.ac, src/TopoDS.i:
+	  Fix bug 1460763: Free edges crash
+
+2006-03-23 14:37:32  tag V0_12_1
+
+2006-03-23 14:37:32  Jerome Robert <jeromerobert@users.sourceforge.net>
+	
+	* src/GeomLProp_SLProps.i:
+	  [bug 1452435] No deflection parameter with jCAE 0.11. See https://sourceforge.net/tracker/?func=detail&atid=540660&aid=1452435&group_id=74334 .
+
+2006-03-01 17:55:36  tag V0_12
+
+2006-03-01 17:55:36  Jerome Robert <jeromerobert@users.sourceforge.net>
+	
+	* occjava-swig.vcproj:
+	  In Windows compilation, remove dependency to msvcr80.dll and disable CLR.
+
+2006-02-27 18:04:42  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* runTests.sh, src/, src-java:
+	  Add "make solid" and "make wire from a TopTool_ListOfShape". Move Example1 to src-java/test.
+
+2006-02-23 15:06:07  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* Swig.rules, occjava-swig.vcproj:
+	  Add files to compile on Windows
+
+	* acsite.m4, configure.ac:
+	  Add autodetection of JNI and swig
+
+	* src/BRep_Tool.i, src/Geom.i, src/GeomLProp_SLProps.i, src/OccJava.i:
+	  Use Handle with Geom* objects. Looks like there is no way to avoid that.
+
+2006-02-22 14:05:18  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* doc/Example1.java, src/BRepBuilderAPI.i src/BRepPrimAPI.i
+	  src/BRepTools.i src/Makefile.am src/OccJava.i src/TopoDS.i:
+	  Add many classes and an example of BRepBuilderAPI
+
+2006-02-21 16:01:23  Jerome Robert <jeromerobert@users.sourceforge.net>
+
+	* src/Makefile.am, src/OccJava.i, src/TopoDS.i, src/TopoDS_Shape.i:
+	  rename TopoDS_Shape.i to TopoDS.i
+
+2006-02-20 15:42  tag V0_11
+

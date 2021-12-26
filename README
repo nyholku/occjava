@@ -1,0 +1,107 @@
+OccJava is a Java wrapper for a small subset of Opencascade libraries
+based on swig (www.swig.org).
+
+This library is needed to run the CAD module of jCAE. It require Swig,
+CMake, OCCT (http://www.opencascade.org) or OCE (https://github.com/tpaviot/oce).
+
+Swig and CMake can be installed on Debian/ubuntu with:
+apt-get install swig cmake
+
+Build OCE from source (https://github.com/tpaviot/oce/wiki/Build) or install OCCT.
+If you build OCE you can disable X11 support in CMakeCache.txt:
+OCE_DISABLE_X11:BOOL=ON
+
+Then to build occjava:
+
+$ mkdir occjava-linux-build
+$ cd occjava-linux-build
+$ cmake -DOCE_DIR=/path/to/oce/lib/oce-0.7.0-dev /path/to/occjava (for OCE)
+or
+$ cmake -DOCC_INCLUDE_PATH=/path/to/occt/inc -DOCC_LIB=/path/to/occt/lib /path/to/occjava
+$ make
+
+Build the jcae-sources/jcae/occjava project from netbeans
+If you intend to build the occjava netbeans module set path.occ.linux and path.occ.win32
+in jcae/nbproject/private/private.properties to /path/to/occjava-linux-build/libOccJava.so
+and /path/to/occjava-win32-build/OccJava.dll
+
+About OCE and OCCT
+------------------
+jCAE developers now use OCE and no longer test OccJava with OCCT. Anyway as OCE and OCCT
+are very close OccJava should keep working with both.
+
+Mixing libstdc++5 and libstdc++6 (outdated)
+--------------------------------
+Starting from version 0.14.1+r1221 (2007-05-10), using the same g++ version for
+OpenCASCADE and occjava is required. This is due to the addition of STL iostream
+binding. The official binaries of OpenCASCADE 6.2 are built with g++-3.3. If
+you get this compilation warning:
+ld: warning: libstdc++.so.5, needed by XXXXXX, may conflict with libstdc++.so.6
+occjava will crash as soon as you will use the iostream binding.
+
+Note (outdated)
+----
+The wrapper may not compile properly with -O2. -fno-strict-aliasing
+is required with -O2. See:
+ http://sourceforge.net/mailarchive/forum.php?thread_id=9715058&forum_id=46758
+ http://gcc.gnu.org/bugzilla/show_bug.cgi?id=21920
+
+How to add class and methods (draft)
+----------------------------
+- Find the src/*.i file you want to modify or add a new one (grep ;) )
+- Copy method/class definition from Opencascade header
+- For Geom_Geometry and Geom2d_Geometry: Change Handle(aType) to Handle_aType
+
+Required OpenCASCADE libraries (probably outdated)
+------------------------------
+The whole OpenCASCADE bundle is not require to use OccJava. Here is the list
+of required libraries.
+
+On Linux:
+libTKBO.so
+libTKBRep.so
+libTKernel.so
+libTKFillet.so
+libTKG2d.so
+libTKG3d.so
+libTKGeomAlgo.so
+libTKGeomBase.so
+libTKIGES.so
+libTKMath.so
+libTKMesh.so
+libTKOffset.so
+libTKPrim.so
+libTKShHealing.so
+libTKSTEP209.so
+libTKSTEPAttr.so
+libTKSTEPBase.so
+libTKSTEP.so
+libTKTopAlgo.so
+libTKV2d.so
+libTKV3d.so
+libTKXSBase.so
+
+On Windows:
+TKBO.dll
+TKBool.dll
+TKBRep.dll
+TKernel.dll
+TKFillet.dll
+TKG2d.dll
+TKG3d.dll
+TKGeomAlgo.dll
+TKGeomBase.dll
+TKIGES.dll
+TKMath.dll
+TKMesh.dll
+TKOffset.dll
+TKPrim.dll
+TKShHealing.dll
+TKSTEP209.dll
+TKSTEPAttr.dll
+TKSTEPBase.dll
+TKSTEP.dll
+TKTopAlgo.dll
+TKV2d.dll
+TKV3d.dll
+TKXSBase.dll
