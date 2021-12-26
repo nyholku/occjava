@@ -648,6 +648,59 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/BRepLib.hxx \
   /usr/local/include/opencascade/TopoDS.hxx \
   /usr/local/include/opencascade/TopoDS.lxx \
+  /usr/local/include/opencascade/BRepFilletAPI_MakeFillet.hxx \
+  /usr/local/include/opencascade/ChFi3d_FilBuilder.hxx \
+  /usr/local/include/opencascade/BlendFunc_SectionShape.hxx \
+  /usr/local/include/opencascade/ChFi3d_Builder.hxx \
+  /usr/local/include/opencascade/ChFiDS_Map.hxx \
+  /usr/local/include/opencascade/ChFiDS_ListOfStripe.hxx \
+  /usr/local/include/opencascade/ChFiDS_Stripe.hxx \
+  /usr/local/include/opencascade/ChFiDS_HData.hxx \
+  /usr/local/include/opencascade/ChFiDS_SurfData.hxx \
+  /usr/local/include/opencascade/ChFiDS_CommonPoint.hxx \
+  /usr/local/include/opencascade/ChFiDS_FaceInterference.hxx \
+  /usr/local/include/opencascade/ChFiDS_FaceInterference.lxx \
+  /usr/local/include/opencascade/ChFiDS_SurfData.lxx \
+  /usr/local/include/opencascade/ChFiDS_SequenceOfSurfData.hxx \
+  /usr/local/include/opencascade/NCollection_DefineHSequence.hxx \
+  /usr/local/include/opencascade/NCollection_DefineSequence.hxx \
+  /usr/local/include/opencascade/ChFiDS_Stripe.lxx \
+  /usr/local/include/opencascade/ChFiDS_StripeMap.hxx \
+  /usr/local/include/opencascade/ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx \
+  /usr/local/include/opencascade/ChFiDS_StripeMap.lxx \
+  /usr/local/include/opencascade/ChFiDS_Regularities.hxx \
+  /usr/local/include/opencascade/ChFiDS_Regul.hxx \
+  /usr/local/include/opencascade/ChFiDS_ErrorStatus.hxx \
+  /usr/local/include/opencascade/math_Vector.hxx \
+  /usr/local/include/opencascade/NCollection_LocalArray.hxx \
+  /usr/local/include/opencascade/BRepAdaptor_Surface.hxx \
+  /usr/local/include/opencascade/GeomAdaptor_Surface.hxx \
+  /usr/local/include/opencascade/GeomAbs_SurfaceType.hxx \
+  /usr/local/include/opencascade/BSplSLib_Cache.hxx \
+  /usr/local/include/opencascade/TColgp_Array2OfPnt.hxx \
+  /usr/local/include/opencascade/TColStd_HArray2OfReal.hxx \
+  /usr/local/include/opencascade/TColStd_Array2OfReal.hxx \
+  /usr/local/include/opencascade/BSplCLib_CacheParams.hxx \
+  /usr/local/include/opencascade/BSplCLib.hxx \
+  /usr/local/include/opencascade/BSplCLib_KnotDistribution.hxx \
+  /usr/local/include/opencascade/BSplCLib_MultDistribution.hxx \
+  /usr/local/include/opencascade/BSplCLib_EvaluatorFunction.hxx \
+  /usr/local/include/opencascade/BSplCLib.lxx \
+  /usr/local/include/opencascade/PLib.hxx \
+  /usr/local/include/opencascade/Adaptor3d_Surface.hxx \
+  /usr/local/include/opencascade/GeomEvaluator_Surface.hxx \
+  /usr/local/include/opencascade/GeomAdaptor_Surface.lxx \
+  /usr/local/include/opencascade/Standard_NullObject.hxx \
+  /usr/local/include/opencascade/BRepAdaptor_Surface.lxx \
+  /usr/local/include/opencascade/ChFi3d_FilletShape.hxx \
+  /usr/local/include/opencascade/ChFiDS_SecHArray1.hxx \
+  /usr/local/include/opencascade/ChFiDS_CircSection.hxx \
+  /usr/local/include/opencascade/ChFiDS_SecArray1.hxx \
+  /usr/local/include/opencascade/BRepFilletAPI_LocalOperation.hxx \
+  /usr/local/include/opencascade/BRepFilletAPI_MakeChamfer.hxx \
+  /usr/local/include/opencascade/ChFi3d_ChBuilder.hxx \
+  /usr/local/include/opencascade/ChFiDS_ChamfMethod.hxx \
+  /usr/local/include/opencascade/ChFiDS_ChamfMode.hxx \
   /usr/local/include/opencascade/BRepCheck_Analyzer.hxx \
   /usr/local/include/opencascade/BRepCheck_DataMapOfShapeResult.hxx \
   /usr/local/include/opencascade/BRepCheck_Result.hxx \
@@ -659,6 +712,9 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/TopTools_OrientedShapeMapHasher.hxx \
   /usr/local/include/opencascade/TopTools_OrientedShapeMapHasher.lxx \
   /usr/local/include/opencascade/BRepCheck_Analyzer.lxx \
+  /usr/local/include/opencascade/APIHeaderSection_MakeHeader.hxx \
+  /usr/local/include/opencascade/Interface_HArray1OfHAsciiString.hxx \
+  /usr/local/include/opencascade/Interface_Array1OfHAsciiString.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_RemoveInternalWires.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_Tool.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_Tool.lxx \
@@ -670,6 +726,14 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/GeomAPI_PointsToBSpline.hxx \
   /usr/local/include/opencascade/GeomAPI_Interpolate.hxx \
   /usr/local/include/opencascade/TColgp_HArray1OfVec.hxx \
+  /usr/local/include/opencascade/GC_MakeArcOfCircle.hxx \
+  /usr/local/include/opencascade/GC_Root.hxx \
+  /usr/local/include/opencascade/gce_ErrorType.hxx \
+  /usr/local/include/opencascade/GC_Root.lxx \
+  /usr/local/include/opencascade/GC_MakeSegment.hxx \
+  /usr/local/include/opencascade/GCE2d_Root.hxx \
+  /usr/local/include/opencascade/GCE2d_Root.lxx \
+  /usr/local/include/opencascade/GCE2d_MakeSegment.hxx \
   /usr/local/include/opencascade/TopExp_Explorer.hxx \
   /usr/local/include/opencascade/TopExp_Stack.hxx \
   /usr/local/include/opencascade/TopExp_Explorer.lxx \
@@ -677,19 +741,8 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/Adaptor2d_Curve2d.hxx \
   /usr/local/include/opencascade/Geom2dAdaptor_Curve.hxx \
   /usr/local/include/opencascade/BSplCLib_Cache.hxx \
-  /usr/local/include/opencascade/TColStd_HArray2OfReal.hxx \
-  /usr/local/include/opencascade/TColStd_Array2OfReal.hxx \
-  /usr/local/include/opencascade/BSplCLib_CacheParams.hxx \
-  /usr/local/include/opencascade/BSplCLib.hxx \
-  /usr/local/include/opencascade/BSplCLib_KnotDistribution.hxx \
-  /usr/local/include/opencascade/BSplCLib_MultDistribution.hxx \
-  /usr/local/include/opencascade/BSplCLib_EvaluatorFunction.hxx \
-  /usr/local/include/opencascade/BSplCLib.lxx \
-  /usr/local/include/opencascade/PLib.hxx \
-  /usr/local/include/opencascade/TColgp_Array2OfPnt.hxx \
   /usr/local/include/opencascade/Geom2dEvaluator_Curve.hxx \
   /usr/local/include/opencascade/Geom2dAdaptor_Curve.lxx \
-  /usr/local/include/opencascade/Standard_NullObject.hxx \
   /usr/local/include/opencascade/GeomAdaptor_Curve.hxx \
   /usr/local/include/opencascade/GeomEvaluator_Curve.hxx \
   /usr/local/include/opencascade/GeomAdaptor_Curve.lxx \
@@ -698,8 +751,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/TColgp_Array1OfXYZ.hxx \
   /usr/local/include/opencascade/ShapeAnalysis_FreeBounds.hxx \
   /usr/local/include/opencascade/TopTools_HSequenceOfShape.hxx \
-  /usr/local/include/opencascade/NCollection_DefineHSequence.hxx \
-  /usr/local/include/opencascade/NCollection_DefineSequence.hxx \
   /usr/local/include/opencascade/ShapeAnalysis_FreeBounds.lxx \
   /usr/local/include/opencascade/GCPnts_UniformDeflection.hxx \
   /usr/local/include/opencascade/StdFail_NotDone.hxx \
@@ -738,7 +789,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/NCollection_EBTree.hxx \
   /usr/local/include/opencascade/Bnd_Box2d.hxx \
   /usr/local/include/opencascade/NCollection_CellFilter.hxx \
-  /usr/local/include/opencascade/NCollection_LocalArray.hxx \
   /usr/local/include/opencascade/NCollection_IncAllocator.hxx \
   /usr/local/include/opencascade/NCollection_UBTreeFiller.hxx \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/random \
@@ -777,15 +827,8 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/Extrema_SequenceOfPOnSurf.hxx \
   /usr/local/include/opencascade/math_FunctionSetWithDerivatives.hxx \
   /usr/local/include/opencascade/math_FunctionSet.hxx \
-  /usr/local/include/opencascade/math_Vector.hxx \
   /usr/local/include/opencascade/Extrema_ExtFlag.hxx \
   /usr/local/include/opencascade/Extrema_ExtAlgo.hxx \
-  /usr/local/include/opencascade/GeomAbs_SurfaceType.hxx \
-  /usr/local/include/opencascade/GeomAdaptor_Surface.hxx \
-  /usr/local/include/opencascade/BSplSLib_Cache.hxx \
-  /usr/local/include/opencascade/Adaptor3d_Surface.hxx \
-  /usr/local/include/opencascade/GeomEvaluator_Surface.hxx \
-  /usr/local/include/opencascade/GeomAdaptor_Surface.lxx \
   /usr/local/include/opencascade/GeomAPI_ProjectPointOnSurf.lxx \
   /usr/local/include/opencascade/BRepAlgo.hxx
 
@@ -1026,19 +1069,19 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/BRepAlgo.hxx:
 
-/usr/local/include/opencascade/GeomEvaluator_Surface.hxx:
-
-/usr/local/include/opencascade/Adaptor3d_Surface.hxx:
-
-/usr/local/include/opencascade/Extrema_ExtAlgo.hxx:
-
-/usr/local/include/opencascade/math_Vector.hxx:
-
 /usr/local/include/opencascade/math_FunctionSet.hxx:
 
 /usr/local/include/opencascade/math_FunctionSetWithDerivatives.hxx:
 
+/usr/local/include/opencascade/Bnd_HArray1OfSphere.hxx:
+
+/usr/local/include/opencascade/Bnd_Sphere.lxx:
+
+/usr/local/include/opencascade/Extrema_HUBTreeOfSphere.hxx:
+
 /usr/local/include/opencascade/Extrema_Array2OfPOnSurfParams.hxx:
+
+/usr/local/include/opencascade/Extrema_POnSurfParams.lxx:
 
 /usr/local/include/opencascade/Extrema_POnSurfParams.hxx:
 
@@ -1046,27 +1089,43 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/Extrema_POnSurf.lxx:
 
+/usr/local/include/opencascade/Extrema_POnSurf.hxx:
+
+/usr/local/include/opencascade/Extrema_ExtPElS.hxx:
+
 /usr/local/include/opencascade/Adaptor3d_SurfacePtr.hxx:
 
-/usr/local/include/opencascade/GeomAdaptor_Surface.lxx:
-
-/usr/local/include/opencascade/Extrema_ExtPS.hxx:
+/usr/local/include/opencascade/GeomAPI_ProjectPointOnSurf.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/list:
 
-/usr/local/include/opencascade/BRepMesh_Edge.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/queue:
+
+/usr/local/include/opencascade/BRepMesh_PairOfIndex.hxx:
+
+/usr/local/include/opencascade/BRepMesh_Triangle.hxx:
+
+/usr/local/include/opencascade/BRepMesh_Circle.hxx:
+
+/usr/local/include/opencascade/Bnd_B2x.lxx:
 
 /usr/local/include/opencascade/BRepMesh_Vertex.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/wchar.h:
 
 /usr/local/include/opencascade/BRepMesh_OrientedEdge.hxx:
 
 /usr/local/include/opencascade/NCollection_UBTreeFiller.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_rsize_t.h:
+
 /usr/local/include/opencascade/NCollection_CellFilter.hxx:
 
 /usr/local/include/opencascade/TColStd_PackedMapOfInteger.hxx:
 
-/usr/local/include/opencascade/BRepMesh_Circle.hxx:
+/usr/local/include/opencascade/ShapeUpgrade_ShapeDivideArea.lxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__memory/base.h:
 
 /usr/local/include/opencascade/IMeshData_ParametersList.hxx:
 
@@ -1078,9 +1137,19 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/IMeshData_Types.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/errno.h:
+
+/usr/local/include/opencascade/gp_Ax2.hxx:
+
 /usr/local/include/opencascade/Message_HArrayOfMsg.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stdlib.h:
+
+/usr/local/include/opencascade/TopoDS_Shape.hxx:
+
 /usr/local/include/opencascade/TColStd_SequenceOfHExtendedString.hxx:
+
+/usr/local/include/opencascade/Geom2d_Ellipse.hxx:
 
 /usr/local/include/opencascade/Message_Status.hxx:
 
@@ -1092,67 +1161,65 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/IMeshTools_Context.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
+/usr/local/include/opencascade/TopLoc_Location.lxx:
+
 /usr/local/include/opencascade/IMeshTools_MeshAlgoType.hxx:
 
 /usr/local/include/opencascade/IMeshTools_Parameters.hxx:
 
+/usr/local/include/opencascade/BRepAlgoAPI_Common.hxx:
+
 /usr/local/include/opencascade/BRepMesh_IncrementalMesh.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_mbstate_t.h:
 
 /usr/local/include/opencascade/TColStd_HArray1OfTransient.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/alloca.h:
+
 /usr/local/include/opencascade/BRepMesh_DiscretRoot.hxx:
+
+/usr/local/include/opencascade/Geom_TrimmedCurve.hxx:
 
 /usr/local/include/opencascade/StdFail_NotDone.hxx:
 
-/usr/local/include/opencascade/Bnd_Sphere.hxx:
-
 /usr/local/include/opencascade/ShapeAnalysis_FreeBounds.lxx:
-
-/usr/local/include/opencascade/NCollection_DefineSequence.hxx:
-
-/usr/local/include/opencascade/TCollection_BasicMapIterator.lxx:
-
-/usr/local/include/opencascade/NCollection_DefineHSequence.hxx:
 
 /usr/local/include/opencascade/TopTools_HSequenceOfShape.hxx:
 
-/usr/local/include/opencascade/ShapeAnalysis_FreeBounds.hxx:
+/usr/local/include/opencascade/NCollection_BaseList.hxx:
 
-/usr/local/include/opencascade/Extrema_FuncPSNorm.hxx:
+/usr/local/include/opencascade/ShapeAnalysis_FreeBounds.hxx:
 
 /usr/local/include/opencascade/BRepGProp.hxx:
 
-/usr/local/include/opencascade/BRepMesh_Triangle.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_wchar_t.h:
 
 /usr/local/include/opencascade/GeomAdaptor_Curve.lxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stack:
+
+/usr/local/include/opencascade/gp_Vec.hxx:
+
 /usr/local/include/opencascade/GeomEvaluator_Curve.hxx:
+
+/usr/local/include/opencascade/TColStd_SequenceOfReal.hxx:
 
 /usr/local/include/opencascade/BRepMesh_DegreeOfFreedom.hxx:
 
 /usr/local/include/opencascade/Geom2dEvaluator_Curve.hxx:
 
-/usr/local/include/opencascade/GProp_GProps.hxx:
-
-/usr/local/include/opencascade/TColgp_Array2OfPnt.hxx:
-
-/usr/local/include/opencascade/PLib.hxx:
-
-/usr/local/include/opencascade/BSplCLib.lxx:
-
-/usr/local/include/opencascade/BSplCLib_MultDistribution.hxx:
-
-/usr/local/include/opencascade/BSplCLib_KnotDistribution.hxx:
-
-/usr/local/include/opencascade/Extrema_SequenceOfPOnSurf.hxx:
-
-/usr/local/include/opencascade/Extrema_POnSurfParams.lxx:
-
 /usr/local/include/opencascade/BSplCLib_Cache.hxx:
+
+/usr/local/include/opencascade/TopTools_ShapeMapHasher.hxx:
 
 /usr/local/include/opencascade/Geom2dAdaptor_Curve.hxx:
 
 /usr/local/include/opencascade/Adaptor2d_Curve2d.hxx:
+
+/usr/local/include/opencascade/BlendFunc_SectionShape.hxx:
 
 /usr/local/include/opencascade/IMeshData_Shape.hxx:
 
@@ -1160,33 +1227,135 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/TopExp_Stack.hxx:
 
-/usr/local/include/opencascade/GeomAbs_SurfaceType.hxx:
+/usr/local/include/opencascade/GC_Root.lxx:
 
-/usr/local/include/opencascade/GeomAPI_Interpolate.hxx:
+/usr/local/include/opencascade/Message_ListOfAlert.hxx:
+
+/usr/local/include/opencascade/gce_ErrorType.hxx:
+
+/usr/local/include/opencascade/PLib.hxx:
+
+/usr/local/include/opencascade/GC_MakeArcOfCircle.hxx:
 
 /usr/local/include/opencascade/ShapeUpgrade_ShapeDivideArea.hxx:
 
 /usr/local/include/opencascade/ShapeUpgrade_RemoveInternalWires.lxx:
 
-/usr/local/include/opencascade/Bnd_B2x.lxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/libkern/_OSByteOrder.h:
 
 /usr/local/include/opencascade/ShapeUpgrade_Tool.hxx:
 
+/usr/local/include/opencascade/Interface_HArray1OfHAsciiString.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/locale.h:
+
 /usr/local/include/opencascade/TopTools_OrientedShapeMapHasher.lxx:
+
+/usr/local/include/opencascade/BRepLib_MakeSolid.hxx:
 
 /usr/local/include/opencascade/BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus.hxx:
 
+/usr/local/include/opencascade/BRepPrimAPI_MakePrism.hxx:
+
 /usr/local/include/opencascade/BRepCheck_Status.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sched.h:
+
+/usr/local/include/opencascade/BRep_TFace.hxx:
 
 /usr/local/include/opencascade/BRepCheck_DataMapOfShapeListOfStatus.hxx:
 
+/usr/local/include/opencascade/ChFiDS_ChamfMode.hxx:
+
+/usr/local/include/opencascade/ChFiDS_ChamfMethod.hxx:
+
+/usr/local/include/opencascade/ChFi3d_ChBuilder.hxx:
+
+/usr/local/include/opencascade/BRepFilletAPI_MakeChamfer.hxx:
+
+/usr/local/include/opencascade/Bnd_Array1OfSphere.hxx:
+
+/usr/local/include/opencascade/BRepAdaptor_Surface.lxx:
+
+/usr/local/include/opencascade/GeomAdaptor_Surface.lxx:
+
+/usr/local/include/opencascade/GeomEvaluator_Surface.hxx:
+
+/usr/local/include/opencascade/Adaptor3d_Surface.hxx:
+
+/usr/local/include/opencascade/BSplCLib.lxx:
+
+/usr/local/include/opencascade/BSplCLib_MultDistribution.hxx:
+
+/usr/local/include/opencascade/BSplCLib_KnotDistribution.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/usr/local/include/opencascade/GProp_GProps.hxx:
+
+/usr/local/include/opencascade/TColgp_Array2OfPnt.hxx:
+
+/usr/local/include/opencascade/TColStd_ListOfInteger.hxx:
+
+/usr/local/include/opencascade/GeomAPI_Interpolate.hxx:
+
+/usr/local/include/opencascade/GeomAbs_SurfaceType.hxx:
+
+/usr/local/include/opencascade/math_Vector.hxx:
+
+/usr/local/include/opencascade/ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx:
+
+/usr/local/include/opencascade/IMeshData_Model.hxx:
+
+/usr/local/include/opencascade/NCollection_DefineSequence.hxx:
+
+/usr/local/include/opencascade/TCollection_BasicMapIterator.lxx:
+
+/usr/local/include/opencascade/NCollection_DefineHSequence.hxx:
+
+/usr/local/include/opencascade/Geom_Curve.hxx:
+
+/usr/local/include/opencascade/ChFiDS_SequenceOfSurfData.hxx:
+
+/usr/local/include/opencascade/ChFiDS_SurfData.lxx:
+
+/usr/local/include/opencascade/BRepOffset_Interval.hxx:
+
+/usr/local/include/opencascade/TopTools_DataMapOfShapeReal.hxx:
+
+/usr/local/include/opencascade/ChFiDS_FaceInterference.lxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_intmax_t.h:
+
+/usr/local/include/opencascade/ChFiDS_FaceInterference.hxx:
+
+/usr/local/include/opencascade/ChFiDS_CommonPoint.hxx:
+
+/usr/local/include/opencascade/TColStd_MapIteratorOfPackedMapOfInteger.hxx:
+
+/usr/local/include/opencascade/ChFiDS_SurfData.hxx:
+
+/usr/local/include/opencascade/ChFi3d_Builder.hxx:
+
+/usr/local/include/opencascade/ChFi3d_FilBuilder.hxx:
+
+/usr/local/include/opencascade/BRepAlgoAPI_BooleanOperation.hxx:
+
 /usr/local/include/opencascade/BRepLib.hxx:
+
+/usr/local/include/opencascade/TopoDS_TVertex.hxx:
 
 /usr/local/include/opencascade/Message_Alert.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__debug:
+
 /usr/local/include/opencascade/OSD_MemInfo.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__errc:
+
 /usr/local/include/opencascade/TCollection_HExtendedString.hxx:
+
+/usr/local/include/opencascade/BRepPrim_OneAxis.hxx:
 
 /usr/local/include/opencascade/TCollection_HAsciiString.lxx:
 
@@ -1194,13 +1363,21 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/TCollection_BasicMap.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_sigaltstack.h:
+
 /usr/local/include/opencascade/Message_SequenceOfPrinters.hxx:
 
+/usr/local/include/opencascade/Extrema_SequenceOfPOnSurf.hxx:
+
 /usr/local/include/opencascade/Message_Messenger.hxx:
+
+/usr/local/include/opencascade/Standard_Mutex.hxx:
 
 /usr/local/include/opencascade/Message.hxx:
 
 /usr/local/include/opencascade/Message_Gravity.hxx:
+
+/usr/local/include/opencascade/gp_XY.hxx:
 
 /usr/local/include/opencascade/BRepAlgoAPI_BuilderAlgo.hxx:
 
@@ -1208,15 +1385,25 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/NCollection_DefineHArray2.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_uuid_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_uintptr_t.h:
+
 /usr/local/include/opencascade/TopTools_HArray2OfShape.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_locale.h:
 
 /usr/local/include/opencascade/BRepFill_Pipe.hxx:
 
 /usr/local/include/opencascade/Standard_NullObject.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_uint64_t.h:
+
 /usr/local/include/opencascade/BRepOffsetAPI_MakePipe.hxx:
 
 /usr/local/include/opencascade/BRepPrimAPI_MakeSweep.hxx:
+
+/usr/local/include/opencascade/BRepLib_MakeVertex.hxx:
 
 /usr/local/include/opencascade/Message_ExecStatus.hxx:
 
@@ -1230,17 +1417,27 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/BRepSweep_Trsf.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types.h:
+
 /usr/local/include/opencascade/BRepSweep_Translation.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/ios:
 
 /usr/local/include/opencascade/BRepPrimAPI_MakeSphere.hxx:
 
 /usr/local/include/opencascade/BRepPrimAPI_MakeCylinder.hxx:
 
+/usr/local/include/opencascade/Standard_Address.hxx:
+
 /usr/local/include/opencascade/BRepPrim_Torus.hxx:
 
 /usr/local/include/opencascade/ShapeExtend.hxx:
 
+/usr/local/include/opencascade/BRepTools_Modifier.hxx:
+
 /usr/local/include/opencascade/BRepPrimAPI_MakeOneAxis.hxx:
+
+/usr/local/include/opencascade/BRepPrim_Builder.lxx:
 
 /usr/local/include/opencascade/BRepPrim_Revolution.hxx:
 
@@ -1248,9 +1445,19 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/BRepPrimAPI_MakeCone.hxx:
 
+/usr/local/include/opencascade/GCE2d_MakeSegment.hxx:
+
+/usr/local/include/opencascade/GC_MakeSegment.hxx:
+
 /usr/local/include/opencascade/BRepPrim_Wedge.hxx:
 
+/usr/local/include/opencascade/Standard_Version.hxx:
+
+/usr/local/include/opencascade/ChFiDS_HData.hxx:
+
 /usr/local/include/opencascade/BOPAlgo_GlueEnum.hxx:
+
+/usr/local/include/opencascade/NCollection_StlIterator.hxx:
 
 /usr/local/include/opencascade/ShapeExtend_Status.hxx:
 
@@ -1264,13 +1471,9 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/BRepOffset_DataMapOfShapeOffset.hxx:
 
-/usr/local/include/opencascade/GeomAPI_ProjectPointOnSurf.lxx:
-
 /usr/local/include/opencascade/BRepAlgo_Image.hxx:
 
 /usr/local/include/opencascade/BRepOffset_DataMapOfShapeListOfInterval.hxx:
-
-/usr/local/include/opencascade/TopTools_DataMapOfShapeReal.hxx:
 
 /usr/local/include/opencascade/BRepOffset_MakeOffset.hxx:
 
@@ -1284,7 +1487,11 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/TopTools_Array1OfShape.hxx:
 
+/usr/local/include/opencascade/TopoDS_TFace.hxx:
+
 /usr/local/include/opencascade/TopTools_DataMapOfShapeListOfInteger.hxx:
+
+/usr/local/include/opencascade/BRepFilletAPI_MakeFillet.hxx:
 
 /usr/local/include/opencascade/TopTools_SequenceOfShape.hxx:
 
@@ -1292,13 +1499,19 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/BRepOffset_Mode.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_dev_t.h:
+
 /usr/local/include/opencascade/BRepTools_History.hxx:
 
 /usr/local/include/opencascade/BRepBuilderAPI_MakeSolid.hxx:
 
+/usr/local/include/opencascade/gp_Mat2d.hxx:
+
 /usr/local/include/opencascade/BOPAlgo_Options.hxx:
 
 /usr/local/include/opencascade/BRepBuilderAPI_FaceError.hxx:
+
+/usr/local/include/opencascade/BRepTools_Quilt.hxx:
 
 /usr/local/include/opencascade/BRepLib_MakeFace.hxx:
 
@@ -1310,21 +1523,35 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/BRepLib_MakeEdge.hxx:
 
-/usr/local/include/opencascade/BRepLib_MakeVertex.hxx:
-
 /usr/local/include/opencascade/NCollection_UBTree.hxx:
+
+/usr/local/include/opencascade/Geom2d_Curve.hxx:
+
+/usr/local/include/opencascade/BRepAlgoAPI_Fuse.hxx:
+
+/usr/local/include/opencascade/ChFiDS_Regul.hxx:
 
 /usr/local/include/opencascade/Bnd_Box.hxx:
 
 /usr/local/include/opencascade/BRepLib_ShapeModification.hxx:
 
+/usr/local/include/opencascade/ChFiDS_SecHArray1.hxx:
+
+/usr/local/include/opencascade/Standard_HandlerStatus.hxx:
+
 /usr/local/include/opencascade/TColStd_MapIntegerHasher.hxx:
+
+/usr/local/include/opencascade/NCollection_DefineHArray1.hxx:
 
 /usr/local/include/opencascade/BRepLib_Command.hxx:
 
 /usr/local/include/opencascade/BRepLib_WireError.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/stdio.h:
+
 /usr/local/include/opencascade/BRepCheck_Analyzer.lxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_uintmax_t.h:
 
 /usr/local/include/opencascade/BRepLib_MakeWire.hxx:
 
@@ -1332,31 +1559,53 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/Message_Printer.hxx:
 
+/usr/local/include/opencascade/TColStd_SequenceOfBoolean.hxx:
+
+/usr/local/include/opencascade/TopoDS_TCompound.lxx:
+
 /usr/local/include/opencascade/BRepBuilderAPI_MakeShape.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
+
 /usr/local/include/opencascade/TopTools_DataMapOfShapeShape.hxx:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h:
 
 /usr/local/include/opencascade/BRepBuilderAPI_ModifyShape.hxx:
 
 /usr/local/include/opencascade/BRepBuilderAPI_Transform.hxx:
 
+/usr/local/include/opencascade/gp_Lin.lxx:
+
 /usr/local/include/opencascade/TopTools_IndexedDataMapOfShapeShape.hxx:
+
+/usr/local/include/opencascade/Geom2d_Geometry.hxx:
 
 /usr/local/include/opencascade/TopTools_DataMapOfShapeListOfShape.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_ctermid.h:
+
 /usr/local/include/opencascade/TopLoc_MapLocationHasher.hxx:
 
-/usr/local/include/opencascade/TColStd_MapIteratorOfPackedMapOfInteger.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_posix_availability.h:
 
 /usr/local/include/opencascade/Message_AlertExtended.hxx:
 
 /usr/local/include/opencascade/TopTools_LocationSet.hxx:
 
+/usr/local/include/opencascade/gp_XYZ.hxx:
+
 /usr/local/include/opencascade/GeomTools_CurveSet.hxx:
+
+/usr/local/include/opencascade/TopoDS_TShell.hxx:
 
 /usr/local/include/opencascade/TColStd_MapTransientHasher.hxx:
 
 /usr/local/include/opencascade/GeomTools_SurfaceSet.hxx:
+
+/usr/local/include/opencascade/NCollection_TListNode.hxx:
+
+/usr/local/include/opencascade/TColgp_Array1OfXYZ.hxx:
 
 /usr/local/include/opencascade/BRepTools_ShapeSet.hxx:
 
@@ -1370,6 +1619,8 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/NCollection_Handle.hxx:
 
+/usr/local/include/opencascade/Standard_TypeMismatch.hxx:
+
 /usr/local/include/opencascade/BRep_PointRepresentation.lxx:
 
 /usr/local/include/opencascade/TColStd_HSequenceOfHExtendedString.hxx:
@@ -1378,17 +1629,19 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/BRep_ListOfPointRepresentation.hxx:
 
+/usr/local/include/opencascade/GC_Root.hxx:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_seek_set.h:
+
+/usr/local/include/opencascade/Standard_RangeError.hxx:
 
 /usr/local/include/opencascade/BRep_TFace.lxx:
 
 /usr/local/include/opencascade/TopoDS_TFace.lxx:
 
-/usr/local/include/opencascade/TopoDS_TFace.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_blksize_t.h:
 
 /usr/local/include/opencascade/BRepPrim_Direction.hxx:
-
-/usr/local/include/opencascade/BRep_TFace.hxx:
 
 /usr/local/include/opencascade/TopoDS_Vertex.lxx:
 
@@ -1398,17 +1651,23 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/TopoDS_Face.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/random:
+
+/usr/local/include/opencascade/GeomAbs_CurveType.hxx:
+
 /usr/local/include/opencascade/BRepSweep_Builder.lxx:
 
 /usr/local/include/opencascade/BRep_Builder.lxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_fd_isset.h:
 
 /usr/local/include/opencascade/Geom2d_TrimmedCurve.hxx:
 
 /usr/local/include/opencascade/BRepOffset_Error.hxx:
 
-/usr/local/include/opencascade/Geom2d_BoundedCurve.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/errno.h:
 
-/usr/local/include/opencascade/Geom2d_Ellipse.hxx:
+/usr/local/include/opencascade/Geom2d_BoundedCurve.hxx:
 
 /usr/local/include/opencascade/Poly_Polygon2D.hxx:
 
@@ -1420,6 +1679,8 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/Geom2d_Conic.hxx:
 
+/usr/local/include/opencascade/Standard_ExtCharacter.hxx:
+
 /usr/local/include/opencascade/TColStd_Array1OfTransient.hxx:
 
 /usr/local/include/opencascade/gp_Ax3.lxx:
@@ -1428,31 +1689,51 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/BRep_Tool.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config:
+
 /usr/local/include/opencascade/Geom_Plane.hxx:
+
+/usr/local/include/opencascade/NCollection_IndexedDataMap.hxx:
 
 /usr/local/include/opencascade/TColStd_Array1OfInteger.hxx:
 
 /usr/local/include/opencascade/TColStd_HArray1OfInteger.hxx:
 
+/usr/local/include/opencascade/TopTools_DataMapOfShapeInteger.hxx:
+
+/usr/local/include/opencascade/gp_Pnt.hxx:
+
 /usr/local/include/opencascade/BSplSLib_Cache.hxx:
 
 /usr/local/include/opencascade/TColStd_HArray1OfReal.hxx:
 
+/usr/local/include/opencascade/Standard_Boolean.hxx:
+
 /usr/local/include/opencascade/GeomAbs_BSplKnotDistribution.hxx:
+
+/usr/local/include/opencascade/Poly_PolygonOnTriangulation.hxx:
 
 /usr/local/include/opencascade/BRepPrim_Cylinder.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/float.h:
+
 /usr/local/include/opencascade/Geom_BoundedCurve.hxx:
+
+/usr/local/include/opencascade/Message_Level.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stddef.h:
+
+/usr/local/include/opencascade/TopoDS_Solid.hxx:
 
 /usr/local/include/opencascade/Geom_Geometry.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/ctype.h:
+
 /usr/local/include/opencascade/BRepOffset_Analyse.hxx:
 
-/usr/local/include/opencascade/Geom2d_Geometry.hxx:
-
-/usr/local/include/opencascade/Geom_Curve.hxx:
-
 /usr/local/include/opencascade/TopTools_ListIteratorOfListOfShape.hxx:
+
+/usr/local/include/opencascade/ChFiDS_StripeMap.lxx:
 
 /usr/local/include/opencascade/BRepSweep_Revol.hxx:
 
@@ -1462,7 +1743,11 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/TopoDS_TSolid.lxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/math.h:
+
 /usr/local/include/opencascade/TopoDS_TWire.lxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
 /usr/local/include/opencascade/BRepOffset_ListOfInterval.hxx:
 
@@ -1472,43 +1757,57 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/NCollection_Sequence.hxx:
 
-/usr/local/include/opencascade/TopoDS_TCompound.lxx:
-
 /usr/local/include/opencascade/TopoDS_Iterator.hxx:
 
 /usr/local/include/opencascade/TopoDS_Wire.lxx:
 
-/usr/local/include/opencascade/BRepPrimAPI_MakePrism.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/numeric:
 
 /usr/local/include/opencascade/TopoDS_Wire.hxx:
 
 /usr/local/include/opencascade/BRepTools_Modifier.lxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cstring:
+
 /usr/local/include/opencascade/TopoDS_Compound.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_mach_port_t.h:
 
 /usr/local/include/opencascade/TopoDS_Solid.lxx:
 
-/usr/local/include/opencascade/TopoDS_Solid.hxx:
-
 /usr/local/include/opencascade/TCollection_BasicMapIterator.hxx:
 
+/usr/local/include/opencascade/APIHeaderSection_MakeHeader.hxx:
+
 /usr/local/include/opencascade/TopoDS_CompSolid.hxx:
+
+/usr/local/include/opencascade/BRepFill_DataMapOfShapeHArray2OfShape.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/bit:
+
+/usr/local/include/opencascade/ChFi3d_FilletShape.hxx:
+
+src/jnistream.hxx:
 
 /usr/local/include/opencascade/TColgp_Array1OfVec.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int64_t.h:
 
+/usr/local/include/opencascade/Message_Msg.hxx:
+
 /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/float.h:
 
 /usr/local/include/opencascade/TColStd_Array1OfBoolean.hxx:
 
-/usr/local/include/opencascade/TopoDS_TShell.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/_types.h:
+
+/usr/local/include/opencascade/Extrema_ElementType.hxx:
 
 /usr/local/include/opencascade/gp.hxx:
 
 /usr/local/include/opencascade/TColStd_HArray1OfBoolean.hxx:
+
+/usr/local/include/opencascade/Standard_DefineAlloc.hxx:
 
 /usr/local/include/opencascade/TopTools_ListOfShape.hxx:
 
@@ -1524,39 +1823,49 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/Precision.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_suseconds_t.h:
+
 /usr/local/include/opencascade/TopoDS.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/float.h:
 
 /usr/local/include/opencascade/TColgp_HArray1OfPnt.hxx:
 
-/usr/local/include/opencascade/GeomAPI_ProjectPointOnSurf.hxx:
+/usr/local/include/opencascade/ChFiDS_ListOfStripe.hxx:
 
 /usr/local/include/opencascade/gp_Ax2.lxx:
+
+/usr/local/include/opencascade/Standard_Handle.hxx:
+
+/usr/local/include/opencascade/ChFiDS_Map.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_va_list.h:
+
+/usr/local/include/opencascade/Geom_CylindricalSurface.hxx:
 
 /usr/local/include/opencascade/gp_Ax1.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__nullptr:
 
-/usr/local/include/opencascade/gp_Ax2.hxx:
-
-src/jnistream.cxx:
-
 /usr/local/include/opencascade/gp_Vec2d.lxx:
 
-/usr/local/include/opencascade/Standard_Version.hxx:
-
-src/jnistream.hxx:
+/usr/local/include/opencascade/Approx_ParametrizationType.hxx:
 
 /usr/local/include/opencascade/Standard_ThreadId.hxx:
 
 /usr/local/include/opencascade/ShapeUpgrade_ShapeDivide.hxx:
 
-/usr/local/include/opencascade/Standard_HandlerStatus.hxx:
-
 /usr/local/include/opencascade/Standard_Real.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/setjmp.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_uint16_t.h:
+
+/usr/local/include/opencascade/BRepOffsetAPI_MakeThickSolid.hxx:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__tuple:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_timeval.h:
 
 /usr/local/include/opencascade/Standard_PErrorHandler.hxx:
 
@@ -1570,17 +1879,27 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/Standard_ShortReal.hxx:
 
+/usr/local/include/opencascade/TopoDS_Shell.lxx:
+
 /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/inttypes.h:
+
+/usr/local/include/opencascade/NCollection_IndexedMap.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_in_addr_t.h:
 
 /usr/local/include/opencascade/TShort_HArray1OfShortReal.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__locale:
+
 /usr/local/include/opencascade/GeomAbs_Shape.hxx:
+
+/usr/local/include/opencascade/BRepBuilderAPI_MakeEdge.hxx:
 
 /usr/local/include/opencascade/Standard_Size.hxx:
 
-/usr/local/include/opencascade/gp_XYZ.hxx:
-
 /usr/local/include/opencascade/Poly_Triangle.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/utility:
 
 /usr/local/include/opencascade/gp_Ax2d.lxx:
 
@@ -1590,19 +1909,25 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/errno.h:
+
 /usr/local/include/opencascade/NCollection_DefineArray1.hxx:
 
-/usr/local/include/opencascade/Bnd_Sphere.lxx:
+/usr/local/include/opencascade/ChFiDS_CircSection.hxx:
 
-/usr/local/include/opencascade/NCollection_DefineHArray1.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/cdefs.h:
 
 /usr/local/include/opencascade/TColgp_Array1OfPnt.hxx:
 
 /usr/local/include/opencascade/NCollection_DataMap.hxx:
 
+/usr/local/include/opencascade/Standard_values.h:
+
 /usr/local/include/opencascade/gp_Mat.hxx:
 
 /usr/local/include/opencascade/gp_Dir2d.hxx:
+
+/usr/local/include/opencascade/gp_Ax1.lxx:
 
 /usr/local/include/opencascade/TopTools_MapOfShape.hxx:
 
@@ -1610,35 +1935,47 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/TopTools_ShapeMapHasher.lxx:
 
-/usr/local/include/opencascade/BRepTools_Modifier.hxx:
+/usr/local/include/opencascade/NCollection_Vector.hxx:
 
 /usr/local/include/opencascade/TopoDS_TShape.hxx:
 
 /usr/local/include/opencascade/gp_VectorWithNullMagnitude.hxx:
 
-/usr/local/include/opencascade/gp_Pnt.hxx:
+/usr/local/include/opencascade/ChFiDS_Stripe.hxx:
+
+/usr/local/include/opencascade/BRepMesh_Edge.hxx:
 
 /usr/local/include/opencascade/gp_Dir.hxx:
 
-/usr/local/include/opencascade/gp_Vec.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_uintptr_t.h:
+/usr/local/include/opencascade/Extrema_ExtAlgo.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/string.h:
 
 /usr/local/include/opencascade/gp_Dir2d.lxx:
 
+/usr/local/include/opencascade/BRepSweep_Tool.hxx:
+
 /usr/local/include/opencascade/gp_Ax3.hxx:
+
+/usr/local/include/opencascade/Standard_TypeDef.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/deque:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/atomic:
 
 /usr/local/include/opencascade/gp_Trsf2d.lxx:
 
+/usr/local/include/opencascade/BRepFilletAPI_LocalOperation.hxx:
+
 /usr/local/include/opencascade/TopoDS_Edge.lxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/xlocale/_stdio.h:
 
 /usr/local/include/opencascade/gp_XY.lxx:
 
-/usr/local/include/opencascade/TopoDS_ListOfShape.hxx:
+/usr/local/include/opencascade/Extrema_ExtPS.hxx:
 
-/usr/local/include/opencascade/gp_Mat2d.hxx:
+/usr/local/include/opencascade/TopoDS_ListOfShape.hxx:
 
 /usr/local/include/opencascade/Standard_IStream.hxx:
 
@@ -1654,23 +1991,23 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/Message_Report.hxx:
 
-/usr/local/include/opencascade/TCollection_AsciiString.hxx:
+/usr/local/include/opencascade/ShapeUpgrade_RemoveInternalWires.hxx:
 
-/usr/local/include/opencascade/Extrema_POnSurf.hxx:
+/usr/local/include/opencascade/TCollection_AsciiString.hxx:
 
 /usr/local/include/opencascade/BRepCheck_ListOfStatus.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_uint8_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cstddef:
+
+/usr/local/include/opencascade/TopoDS_TCompSolid.lxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/xlocale/_wchar.h:
 
 /usr/local/include/opencascade/gp_Vec.lxx:
 
 /usr/local/include/opencascade/NCollection_BaseSequence.hxx:
-
-/usr/local/include/opencascade/BRepBuilderAPI_MakeEdge.hxx:
-
-/usr/local/include/opencascade/Standard_TypeMismatch.hxx:
 
 /usr/local/include/opencascade/NCollection_BaseAllocator.hxx:
 
@@ -1682,19 +2019,23 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/Standard_ConstructionError.hxx:
 
-/usr/local/include/opencascade/ShapeUpgrade_RemoveInternalWires.hxx:
-
 /usr/local/include/opencascade/NCollection_Map.hxx:
 
 /usr/local/include/opencascade/NCollection_Array2.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/wctype.h:
+
 /usr/local/include/opencascade/gp_Trsf.hxx:
 
-/usr/local/include/opencascade/TopLoc_Location.lxx:
+/usr/local/include/opencascade/gp_Parab.lxx:
 
 /usr/local/include/opencascade/Standard_OutOfMemory.hxx:
 
 /usr/local/include/opencascade/gp_Ax2d.hxx:
+
+/usr/local/include/opencascade/BRep_TVertex.lxx:
+
+/usr/local/include/opencascade/NCollection_Array1.hxx:
 
 /usr/local/include/opencascade/gp.lxx:
 
@@ -1708,19 +2049,17 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/TopoDS_Shell.hxx:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__threading_support:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__mutex_base:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_useconds_t.h:
+
 /usr/local/include/opencascade/TopAbs_State.hxx:
-
-/usr/local/include/opencascade/Extrema_ExtFlag.hxx:
-
-/usr/local/include/opencascade/NCollection_Array1.hxx:
-
-/usr/local/include/opencascade/TopoDS_Shape.hxx:
 
 /usr/local/include/opencascade/TopTools_IndexedMapOfShape.hxx:
 
 /usr/local/include/opencascade/TopAbs_ShapeEnum.hxx:
-
-/usr/local/include/opencascade/GeomAbs_CurveType.hxx:
 
 /usr/local/include/opencascade/TopTools_OrientedShapeMapHasher.hxx:
 
@@ -1730,9 +2069,11 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/BRepBuilderAPI_NurbsConvert.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bit_reference:
+/usr/local/include/opencascade/LProp_Status.hxx:
 
-/usr/local/include/opencascade/Standard_RangeError.hxx:
+/usr/local/include/opencascade/GeomAdaptor_Curve.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bit_reference:
 
 /usr/local/include/opencascade/Standard_OutOfRange.hxx:
 
@@ -1742,8 +2083,6 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/NCollection_ListNode.hxx:
 
-/usr/local/include/opencascade/Extrema_ExtPElS.hxx:
-
 /usr/local/include/opencascade/BOPAlgo_PPaveFiller.hxx:
 
 /usr/local/include/opencascade/NCollection_Mat4.hxx:
@@ -1752,19 +2091,13 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/Standard_DimensionMismatch.hxx:
 
-/usr/local/include/opencascade/TColgp_Array1OfXYZ.hxx:
+/usr/local/include/opencascade/ChFiDS_SecArray1.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/tuple:
 
 /usr/local/include/opencascade/TColStd_Array1OfReal.hxx:
 
-/usr/local/include/opencascade/Standard_Handle.hxx:
-
 /usr/local/include/opencascade/BRepOffsetAPI_NormalProjection.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_sigaltstack.h:
-
-/usr/local/include/opencascade/TopTools_ShapeMapHasher.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
@@ -1772,19 +2105,19 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/Standard_ExtString.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stack:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/fstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/bitset:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
+/usr/local/include/opencascade/TopoDS_Compound.lxx:
+
 /usr/local/include/opencascade/TopExp.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_mbstate_t.h:
-
 /usr/local/include/opencascade/gp_Pnt2d.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/unistd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
@@ -1792,11 +2125,7 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_ino_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_in_addr_t.h:
-
 /usr/local/include/opencascade/NCollection_Vec4.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_fd_isset.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/endian.h:
 
@@ -1808,15 +2137,13 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_fd_def.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/stdio.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_useconds_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_key_t.h:
 
 /usr/local/include/opencascade/TopoDS_Edge.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_in_port_t.h:
+
+/usr/local/include/opencascade/GeomAdaptor_Surface.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_gid_t.h:
 
@@ -1830,10 +2157,6 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/nl_types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_blksize_t.h:
-
-/usr/local/include/opencascade/Extrema_ElementType.hxx:
-
 /usr/local/include/opencascade/GeomAbs_JoinType.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/system_error:
@@ -1844,29 +2167,23 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/TopoDS_Face.lxx:
 
+/usr/local/include/opencascade/Extrema_ExtFlag.hxx:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/xlocale/_time.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/xlocale/_stdio.h:
-
-/usr/local/include/opencascade/BRepAlgoAPI_Fuse.hxx:
-
-/usr/local/include/opencascade/TopoDS_TVertex.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/Availability.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/xlocale/__wctype.h:
 
 /usr/local/include/opencascade/TopoDS_TSolid.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/xlocale/_ctype.h:
+/usr/local/include/opencascade/gp_Pnt2d.lxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_locale.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/xlocale/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/mutex:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/locale.h:
-
-/usr/local/include/opencascade/Bnd_Array1OfSphere.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cerrno:
 
@@ -1876,85 +2193,63 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/Poly_Triangulation.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__errc:
-
 /usr/local/include/opencascade/Message_ProgressRange.hxx:
 
 /usr/local/include/opencascade/gp_XYZ.lxx:
 
-/usr/local/include/opencascade/Standard_Mutex.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__mutex_base:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_nl_item.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_wctrans_t.h:
 
 /usr/local/include/opencascade/BRepOffset_MakeSimpleOffset.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/wctype.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_stdio.h:
+
+/usr/local/include/opencascade/Bnd_Sphere.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cwctype:
 
 /usr/local/include/opencascade/BRepPrim_Builder.hxx:
 
-/usr/local/include/opencascade/Standard_ProgramError.hxx:
+/usr/local/include/opencascade/TopAbs.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_uintmax_t.h:
+/usr/local/include/opencascade/Standard_ProgramError.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cwchar:
 
+/usr/local/include/opencascade/BRepAdaptor_Surface.hxx:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__memory/utilities.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/bit:
-
-/usr/local/include/opencascade/GeomAdaptor_Curve.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_suseconds_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/unistd.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/syslimits.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/assert.h:
 
+/usr/local/include/opencascade/ChFiDS_StripeMap.hxx:
+
 /usr/local/include/opencascade/TopoDS.lxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cassert:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_mach_port_t.h:
 
 /usr/local/include/opencascade/BRepLib_FaceError.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_errno_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_uint64_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_rsize_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
-
 /usr/local/include/opencascade/Standard_math.hxx:
 
 /usr/local/include/opencascade/TCollection_ExtendedString.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/AvailabilityInternal.h:
-
-/usr/local/include/opencascade/Extrema_HUBTreeOfSphere.hxx:
 
 /usr/local/include/opencascade/BRepAlgoAPI_Cut.hxx:
 
 /usr/local/include/opencascade/Standard_Stream.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/errno.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/pthread/sched.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__split_buffer:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/errno.h:
 
 /usr/local/include/opencascade/TopLoc_Location.hxx:
 
@@ -1962,13 +2257,11 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/TColStd_IndexedMapOfTransient.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__memory/base.h:
-
-/usr/local/include/opencascade/Message_Msg.hxx:
-
 /usr/local/include/opencascade/BRepCheck_Analyzer.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/setjmp.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/_limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/exception:
 
@@ -1976,23 +2269,15 @@ src/jnistream.hxx:
 
 /usr/local/include/opencascade/BSplCLib_EvaluatorFunction.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__debug:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int16_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_ctermid.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/initializer_list:
 
 /usr/local/include/opencascade/TColStd_Array2OfReal.hxx:
 
-/usr/local/include/opencascade/BRepFill_DataMapOfShapeHArray2OfShape.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/functional:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/types.h:
-
-/usr/local/include/opencascade/Extrema_HArray2OfPOnSurfParams.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/algorithm:
 
@@ -2002,19 +2287,13 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/string_view:
 
-/usr/local/include/opencascade/NCollection_BaseVector.hxx:
+/usr/local/include/opencascade/Message_MetricType.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cstring:
+/usr/local/include/opencascade/NCollection_BaseVector.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__availability:
 
-/usr/local/include/opencascade/TColStd_ListOfInteger.hxx:
-
 /usr/local/include/opencascade/TopTools_ShapeSet.hxx:
-
-/usr/local/include/opencascade/NCollection_BaseList.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__locale:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_wctype_t.h:
 
@@ -2022,33 +2301,21 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stdint.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/atomic:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_wctype.h:
 
 /usr/local/include/opencascade/BRepPrim_Sphere.hxx:
 
 /usr/local/include/opencascade/TopoDS_Iterator.lxx:
 
-/usr/local/include/opencascade/gp_Pnt2d.lxx:
-
-/usr/local/include/opencascade/Bnd_HArray1OfSphere.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/machine/signal.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/ios:
 
 /usr/local/include/opencascade/gp_Pnt.lxx:
 
 /usr/local/include/opencascade/BOPAlgo_PBuilder.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/ctype.h:
-
-/usr/local/include/opencascade/IMeshTools_ModelAlgo.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__threading_support:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cctype:
+
+/usr/local/include/opencascade/Standard_DomainError.hxx:
 
 /usr/local/include/opencascade/TopLoc_IndexedMapOfLocation.hxx:
 
@@ -2064,35 +2331,23 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/float.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/chrono:
 
-/usr/local/include/opencascade/gp_Parab.lxx:
+/usr/local/include/opencascade/GCE2d_Root.lxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/memory:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_ctype.h:
 
-/usr/local/include/opencascade/gp_XY.hxx:
-
 /usr/local/include/opencascade/gp_Trsf2d.hxx:
 
 /usr/local/include/opencascade/TopoDS_TShell.lxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_posix_availability.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/float.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/limits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/new:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_null.h:
-
-/usr/local/include/opencascade/TColStd_SequenceOfBoolean.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/math.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__undef_macros:
 
@@ -2102,19 +2357,17 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/mach/i386/_structs.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/xlocale/_string.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types.h:
-
 /usr/local/include/opencascade/Sweep_NumShape.lxx:
-
-/usr/local/include/opencascade/Standard_Boolean.hxx:
-
-/usr/local/include/opencascade/BRepAlgoAPI_Common.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/typeinfo:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/wctype.h:
+
+/usr/local/include/opencascade/Standard_PExtCharacter.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cstdint:
 
@@ -2130,11 +2383,7 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_ino64_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stddef.h:
-
 /usr/local/include/opencascade/Standard_CString.hxx:
-
-/usr/local/include/opencascade/BRepOffsetAPI_MakeThickSolid.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/filesystem:
 
@@ -2142,13 +2391,11 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/xlocale/_inttypes.h:
 
+/usr/local/include/opencascade/Extrema_HArray2OfPOnSurfParams.hxx:
+
+/usr/local/include/opencascade/ChFiDS_Stripe.lxx:
+
 /usr/local/include/opencascade/Sweep_NumShape.hxx:
-
-/usr/local/include/opencascade/BRepLib_MakeSolid.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/syslimits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_timeval.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/__wctype.h:
 
@@ -2158,9 +2405,9 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/limits.h:
 
-/usr/local/include/opencascade/TopAbs_Orientation.hxx:
+/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/include/jni.h:
 
-/usr/local/include/opencascade/Standard_values.h:
+/usr/local/include/opencascade/TopAbs_Orientation.hxx:
 
 /usr/local/include/opencascade/BRepBuilderAPI_MakeWire.hxx:
 
@@ -2168,17 +2415,17 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/mach/machine/_structs.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/utility:
-
 /usr/local/include/opencascade/Standard_PrimitiveTypes.hxx:
 
-/usr/local/include/opencascade/Standard_Macro.hxx:
+/usr/local/include/opencascade/ChFiDS_ErrorStatus.hxx:
 
-/usr/local/include/opencascade/gp_Lin.lxx:
+/usr/local/include/opencascade/Standard_Macro.hxx:
 
 /usr/local/include/opencascade/BRepCheck_Result.lxx:
 
 /usr/local/include/opencascade/BRepOffsetAPI_MakeOffsetShape.hxx:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/sstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/machine/_mcontext.h:
 
@@ -2188,29 +2435,31 @@ src/jnistream.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cstdlib:
 
+/usr/local/include/opencascade/GeomAPI_ProjectPointOnSurf.lxx:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_timespec.h:
 
-/usr/local/include/opencascade/Standard_DomainError.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_time_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_ssize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/pthread.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stdlib.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/time.h:
 
+/usr/local/include/opencascade/gp_Dir.lxx:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/ctime:
 
-/usr/local/include/opencascade/Standard_DefineAlloc.hxx:
-
 /usr/local/include/opencascade/TColStd_HArray2OfReal.hxx:
+
+/usr/local/include/opencascade/TColgp_HArray1OfPnt2d.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/wchar.h:
 
@@ -2220,21 +2469,15 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/stdio.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/Availability.h:
-
 /usr/local/include/opencascade/Standard_Failure.hxx:
-
-/usr/local/include/opencascade/IMeshData_Model.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/stdlib.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_nl_item.h:
-
 /usr/local/include/opencascade/Standard_Std.hxx:
 
-/usr/local/include/opencascade/Message_Level.hxx:
-
 /usr/local/include/opencascade/Standard.hxx:
+
+/usr/local/include/opencascade/Interface_Array1OfHAsciiString.hxx:
 
 /usr/local/include/opencascade/NCollection_List.hxx:
 
@@ -2250,8 +2493,6 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/libkern/_OSByteOrder.h:
-
 /usr/local/include/opencascade/BRep_TVertex.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/wait.h:
@@ -2260,27 +2501,17 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /usr/local/include/opencascade/BRepSweep_NumLinearRegularSweep.hxx:
 
+/usr/local/include/opencascade/gp_Vec2d.hxx:
+
 /usr/local/include/opencascade/BRepOffset_Interval.lxx:
 
-/usr/local/include/opencascade/TColgp_HArray1OfPnt2d.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_mode_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
-
-/usr/local/include/opencascade/BRepPrim_OneAxis.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_int32_t.h:
 
 /usr/local/include/opencascade/BRepCheck_Result.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_dev_t.h:
-
 /usr/local/include/opencascade/GeomFill_Trihedron.hxx:
-
-/usr/local/include/opencascade/BRep_TVertex.lxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_wchar_t.h:
 
 /usr/local/include/opencascade/gp_TrsfForm.hxx:
 
@@ -2288,23 +2519,13 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_char.h:
 
-/usr/local/include/opencascade/NCollection_LocalArray.hxx:
-
 /usr/local/include/opencascade/Geom2dAdaptor_Curve.lxx:
+
+/usr/local/include/opencascade/NCollection_LocalArray.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_ct_rune_t.h:
-
-/usr/local/include/opencascade/gp_Ax1.lxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_uuid_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/errno.h:
-
 /usr/local/include/opencascade/NCollection_DefaultHasher.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/alloca.h:
 
 /usr/local/include/opencascade/TColStd_IndexedMapOfInteger.hxx:
 
@@ -2326,19 +2547,11 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/inttypes.h:
 
-/usr/local/include/opencascade/TColStd_SequenceOfReal.hxx:
-
-/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/include/jni.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/malloc/_malloc.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_pid_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/deque:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_intmax_t.h:
 
 /usr/local/include/opencascade/NCollection_Vec2.hxx:
 
@@ -2346,17 +2559,13 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/string:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/sstream:
+/usr/local/include/opencascade/TColStd_SequenceOfInteger.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/type_traits:
 
 /usr/local/include/opencascade/TopTools_IndexedDataMapOfShapeListOfShape.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/random:
-
 /usr/local/include/opencascade/NCollection_IncAllocator.hxx:
-
-/usr/local/include/opencascade/LProp_Status.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/strings.h:
 
@@ -2366,31 +2575,15 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h:
 
-/usr/local/include/opencascade/TColStd_SequenceOfInteger.hxx:
-
 /usr/local/include/opencascade/BRepBuilderAPI_WireError.hxx:
-
-/usr/local/include/opencascade/Geom_TrimmedCurve.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_rune_t.h:
 
-/usr/local/include/opencascade/Standard_TypeDef.hxx:
-
 /usr/local/include/opencascade/NCollection_Vec3.hxx:
-
-/usr/local/include/opencascade/NCollection_IndexedDataMap.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sched.h:
-
-/usr/local/include/opencascade/Geom2d_Curve.hxx:
 
 /usr/local/include/opencascade/Geom_Surface.hxx:
 
-/usr/local/include/opencascade/gp_Vec2d.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_id_t.h:
-
-/usr/local/include/opencascade/Message_MetricType.hxx:
 
 /usr/local/include/opencascade/Standard_DefineException.hxx:
 
@@ -2398,23 +2591,15 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_uid_t.h:
 
-/usr/local/include/opencascade/NCollection_TListNode.hxx:
-
-/usr/local/include/opencascade/BRepPrim_Builder.lxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_uint32_t.h:
 
 /usr/local/include/opencascade/BRepSweep_Prism.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_ucontext.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/queue:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/iostream:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/mach/i386/_structs.h:
 
 /usr/local/include/opencascade/Message_Msg.lxx:
 
@@ -2424,15 +2609,9 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/_mcontext.h:
 
-/usr/local/include/opencascade/TopoDS_Compound.lxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/version:
 
 /usr/local/include/opencascade/NCollection_DefineAlloc.hxx:
-
-/usr/local/include/opencascade/gp_Dir.lxx:
-
-/usr/local/include/opencascade/ShapeUpgrade_ShapeDivideArea.lxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_sigset_t.h:
 
@@ -2444,35 +2623,25 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
-/usr/local/include/opencascade/Poly_PolygonOnTriangulation.hxx:
-
 /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/include/darwin/jni_md.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/vector:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/inttypes.h:
 
-/usr/local/include/opencascade/Standard_ExtCharacter.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/ratio:
 
 /usr/local/include/opencascade/BRepTools.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/_limits.h:
-
-/usr/local/include/opencascade/Approx_ParametrizationType.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_uint16_t.h:
 
 /usr/local/include/opencascade/TColgp_SequenceOfPnt.hxx:
 
 /usr/local/include/opencascade/TopLoc_ItemLocation.hxx:
 
+src/jnistream.cxx:
+
 /usr/local/include/opencascade/Standard_ErrorHandler.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/ctype.h:
-
-/usr/local/include/opencascade/Geom_CylindricalSurface.hxx:
 
 /usr/local/include/opencascade/TCollection_AsciiString.lxx:
 
@@ -2484,19 +2653,13 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /usr/local/include/opencascade/Standard_Integer.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/numeric:
-
 /usr/local/include/opencascade/gp_Circ.hxx:
-
-/usr/local/include/opencascade/Message_ListOfAlert.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_clock_t.h:
 
 /usr/local/include/opencascade/gp_Trsf.lxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/machine/types.h:
-
-/usr/local/include/opencascade/TopoDS_Shell.lxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int32_t.h:
 
@@ -2506,19 +2669,11 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_wint_t.h:
 
-/usr/local/include/opencascade/Standard_PExtCharacter.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/wchar.h:
-
 /usr/local/include/opencascade/Standard_SStream.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_va_list.h:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h:
 
 /usr/local/include/opencascade/Standard_Transient.hxx:
 
-/usr/local/include/opencascade/NCollection_StlIterator.hxx:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cstdio:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_symbol_aliasing.h:
 
@@ -2526,29 +2681,13 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /usr/local/include/opencascade/Message_ProgressScope.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_caddr_t.h:
 
 /usr/local/include/opencascade/Geom_BSplineCurve.hxx:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types/_uint8_t.h:
-
 /usr/local/include/opencascade/BRepPrim_GWedge.hxx:
 
-/usr/local/include/opencascade/TopAbs.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_blkcnt_t.h:
-
-/usr/local/include/opencascade/BRepOffset_Interval.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config:
-
-/usr/local/include/opencascade/GeomAdaptor_Surface.hxx:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cstdio:
-
-/usr/local/include/opencascade/NCollection_Vector.hxx:
 
 /usr/local/include/opencascade/BRep_Builder.hxx:
 
@@ -2556,25 +2695,19 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/pthread/qos.h:
 
-/usr/local/include/opencascade/BRepAlgoAPI_BooleanOperation.hxx:
-
-/usr/local/include/opencascade/NCollection_IndexedMap.hxx:
-
-/usr/local/include/opencascade/BRepSweep_Tool.hxx:
+/usr/local/include/opencascade/GCE2d_Root.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_endian.h:
 
+/usr/local/include/opencascade/IMeshTools_ModelAlgo.hxx:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/machine/endian.h:
 
-/usr/local/include/opencascade/BRepMesh_PairOfIndex.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/streambuf:
-
-/usr/local/include/opencascade/BRepTools_Quilt.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bits:
 
@@ -2582,20 +2715,16 @@ src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx:
 
 /usr/local/include/opencascade/TCollection_BasicMap.lxx:
 
-/usr/local/include/opencascade/TopTools_DataMapOfShapeInteger.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_xlocale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_size_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/cdefs.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/locale:
+
+/usr/local/include/opencascade/ChFiDS_Regularities.hxx:
+
+/usr/local/include/opencascade/Extrema_FuncPSNorm.hxx:
 
 /usr/local/include/opencascade/GeomTools_Curve2dSet.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/AvailabilityVersions.h:
-
-/usr/local/include/opencascade/TopoDS_TCompSolid.lxx:
-
-/usr/local/include/opencascade/Standard_Address.hxx:

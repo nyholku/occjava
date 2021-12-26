@@ -646,6 +646,59 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/BRepLib.hxx \
   /usr/local/include/opencascade/TopoDS.hxx \
   /usr/local/include/opencascade/TopoDS.lxx \
+  /usr/local/include/opencascade/BRepFilletAPI_MakeFillet.hxx \
+  /usr/local/include/opencascade/ChFi3d_FilBuilder.hxx \
+  /usr/local/include/opencascade/BlendFunc_SectionShape.hxx \
+  /usr/local/include/opencascade/ChFi3d_Builder.hxx \
+  /usr/local/include/opencascade/ChFiDS_Map.hxx \
+  /usr/local/include/opencascade/ChFiDS_ListOfStripe.hxx \
+  /usr/local/include/opencascade/ChFiDS_Stripe.hxx \
+  /usr/local/include/opencascade/ChFiDS_HData.hxx \
+  /usr/local/include/opencascade/ChFiDS_SurfData.hxx \
+  /usr/local/include/opencascade/ChFiDS_CommonPoint.hxx \
+  /usr/local/include/opencascade/ChFiDS_FaceInterference.hxx \
+  /usr/local/include/opencascade/ChFiDS_FaceInterference.lxx \
+  /usr/local/include/opencascade/ChFiDS_SurfData.lxx \
+  /usr/local/include/opencascade/ChFiDS_SequenceOfSurfData.hxx \
+  /usr/local/include/opencascade/NCollection_DefineHSequence.hxx \
+  /usr/local/include/opencascade/NCollection_DefineSequence.hxx \
+  /usr/local/include/opencascade/ChFiDS_Stripe.lxx \
+  /usr/local/include/opencascade/ChFiDS_StripeMap.hxx \
+  /usr/local/include/opencascade/ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx \
+  /usr/local/include/opencascade/ChFiDS_StripeMap.lxx \
+  /usr/local/include/opencascade/ChFiDS_Regularities.hxx \
+  /usr/local/include/opencascade/ChFiDS_Regul.hxx \
+  /usr/local/include/opencascade/ChFiDS_ErrorStatus.hxx \
+  /usr/local/include/opencascade/math_Vector.hxx \
+  /usr/local/include/opencascade/NCollection_LocalArray.hxx \
+  /usr/local/include/opencascade/BRepAdaptor_Surface.hxx \
+  /usr/local/include/opencascade/GeomAdaptor_Surface.hxx \
+  /usr/local/include/opencascade/GeomAbs_SurfaceType.hxx \
+  /usr/local/include/opencascade/BSplSLib_Cache.hxx \
+  /usr/local/include/opencascade/TColgp_Array2OfPnt.hxx \
+  /usr/local/include/opencascade/TColStd_HArray2OfReal.hxx \
+  /usr/local/include/opencascade/TColStd_Array2OfReal.hxx \
+  /usr/local/include/opencascade/BSplCLib_CacheParams.hxx \
+  /usr/local/include/opencascade/BSplCLib.hxx \
+  /usr/local/include/opencascade/BSplCLib_KnotDistribution.hxx \
+  /usr/local/include/opencascade/BSplCLib_MultDistribution.hxx \
+  /usr/local/include/opencascade/BSplCLib_EvaluatorFunction.hxx \
+  /usr/local/include/opencascade/BSplCLib.lxx \
+  /usr/local/include/opencascade/PLib.hxx \
+  /usr/local/include/opencascade/Adaptor3d_Surface.hxx \
+  /usr/local/include/opencascade/GeomEvaluator_Surface.hxx \
+  /usr/local/include/opencascade/GeomAdaptor_Surface.lxx \
+  /usr/local/include/opencascade/Standard_NullObject.hxx \
+  /usr/local/include/opencascade/BRepAdaptor_Surface.lxx \
+  /usr/local/include/opencascade/ChFi3d_FilletShape.hxx \
+  /usr/local/include/opencascade/ChFiDS_SecHArray1.hxx \
+  /usr/local/include/opencascade/ChFiDS_CircSection.hxx \
+  /usr/local/include/opencascade/ChFiDS_SecArray1.hxx \
+  /usr/local/include/opencascade/BRepFilletAPI_LocalOperation.hxx \
+  /usr/local/include/opencascade/BRepFilletAPI_MakeChamfer.hxx \
+  /usr/local/include/opencascade/ChFi3d_ChBuilder.hxx \
+  /usr/local/include/opencascade/ChFiDS_ChamfMethod.hxx \
+  /usr/local/include/opencascade/ChFiDS_ChamfMode.hxx \
   /usr/local/include/opencascade/BRepCheck_Analyzer.hxx \
   /usr/local/include/opencascade/BRepCheck_DataMapOfShapeResult.hxx \
   /usr/local/include/opencascade/BRepCheck_Result.hxx \
@@ -683,19 +736,8 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/Adaptor2d_Curve2d.hxx \
   /usr/local/include/opencascade/Geom2dAdaptor_Curve.hxx \
   /usr/local/include/opencascade/BSplCLib_Cache.hxx \
-  /usr/local/include/opencascade/TColStd_HArray2OfReal.hxx \
-  /usr/local/include/opencascade/TColStd_Array2OfReal.hxx \
-  /usr/local/include/opencascade/BSplCLib_CacheParams.hxx \
-  /usr/local/include/opencascade/BSplCLib.hxx \
-  /usr/local/include/opencascade/BSplCLib_KnotDistribution.hxx \
-  /usr/local/include/opencascade/BSplCLib_MultDistribution.hxx \
-  /usr/local/include/opencascade/BSplCLib_EvaluatorFunction.hxx \
-  /usr/local/include/opencascade/BSplCLib.lxx \
-  /usr/local/include/opencascade/PLib.hxx \
-  /usr/local/include/opencascade/TColgp_Array2OfPnt.hxx \
   /usr/local/include/opencascade/Geom2dEvaluator_Curve.hxx \
   /usr/local/include/opencascade/Geom2dAdaptor_Curve.lxx \
-  /usr/local/include/opencascade/Standard_NullObject.hxx \
   /usr/local/include/opencascade/GeomAdaptor_Curve.hxx \
   /usr/local/include/opencascade/GeomEvaluator_Curve.hxx \
   /usr/local/include/opencascade/GeomAdaptor_Curve.lxx \
@@ -704,8 +746,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/TColgp_Array1OfXYZ.hxx \
   /usr/local/include/opencascade/ShapeAnalysis_FreeBounds.hxx \
   /usr/local/include/opencascade/TopTools_HSequenceOfShape.hxx \
-  /usr/local/include/opencascade/NCollection_DefineHSequence.hxx \
-  /usr/local/include/opencascade/NCollection_DefineSequence.hxx \
   /usr/local/include/opencascade/ShapeAnalysis_FreeBounds.lxx \
   /usr/local/include/opencascade/GCPnts_UniformDeflection.hxx \
   /usr/local/include/opencascade/StdFail_NotDone.hxx \
@@ -744,7 +784,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/NCollection_EBTree.hxx \
   /usr/local/include/opencascade/Bnd_Box2d.hxx \
   /usr/local/include/opencascade/NCollection_CellFilter.hxx \
-  /usr/local/include/opencascade/NCollection_LocalArray.hxx \
   /usr/local/include/opencascade/NCollection_IncAllocator.hxx \
   /usr/local/include/opencascade/NCollection_UBTreeFiller.hxx \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/random \
@@ -783,14 +822,7 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/Extrema_SequenceOfPOnSurf.hxx \
   /usr/local/include/opencascade/math_FunctionSetWithDerivatives.hxx \
   /usr/local/include/opencascade/math_FunctionSet.hxx \
-  /usr/local/include/opencascade/math_Vector.hxx \
   /usr/local/include/opencascade/Extrema_ExtFlag.hxx \
   /usr/local/include/opencascade/Extrema_ExtAlgo.hxx \
-  /usr/local/include/opencascade/GeomAbs_SurfaceType.hxx \
-  /usr/local/include/opencascade/GeomAdaptor_Surface.hxx \
-  /usr/local/include/opencascade/BSplSLib_Cache.hxx \
-  /usr/local/include/opencascade/Adaptor3d_Surface.hxx \
-  /usr/local/include/opencascade/GeomEvaluator_Surface.hxx \
-  /usr/local/include/opencascade/GeomAdaptor_Surface.lxx \
   /usr/local/include/opencascade/GeomAPI_ProjectPointOnSurf.lxx \
   /usr/local/include/opencascade/BRepAlgo.hxx

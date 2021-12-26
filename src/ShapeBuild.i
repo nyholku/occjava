@@ -1,6 +1,6 @@
 /*
  * Project Info:  http://jcae.sourceforge.net
- * 
+ *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Lesser General Public License as published by the Free
  * Software Foundation; either version 2.1 of the License, or (at your option)
@@ -23,13 +23,11 @@
 class ShapeBuild_ReShape
 {
 	public:
-	
+
 	%rename(replace) Replace;
 	%rename(apply) Apply;
 
 	ShapeBuild_ReShape();
-	void Replace(const TopoDS_Shape& shape,const TopoDS_Shape& newshape,const Standard_Boolean oriented = Standard_False) ;
+	//void Replace(const TopoDS_Shape& shape,const TopoDS_Shape& newshape,const Standard_Boolean oriented = Standard_False) ;
 	TopoDS_Shape Apply(const TopoDS_Shape& shape,const TopAbs_ShapeEnum until = TopAbs_SHAPE) ;
 };
-
-

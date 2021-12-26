@@ -6,6 +6,7 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp
  /Users/nyholku/jCAE/occjava3/src/BRepAlgoAPI.i
  /Users/nyholku/jCAE/occjava3/src/BRepBuilderAPI.i
  /Users/nyholku/jCAE/occjava3/src/BRepCheck.i
+ /Users/nyholku/jCAE/occjava3/src/BRepFilletAPI.i
  /Users/nyholku/jCAE/occjava3/src/BRepLib.i
  /Users/nyholku/jCAE/occjava3/src/BRepOffsetAPI.i
  /Users/nyholku/jCAE/occjava3/src/BRepPrimAPI.i
@@ -17,6 +18,7 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp
  /Users/nyholku/jCAE/occjava3/src/GeomLProp_SLProps.i
  /Users/nyholku/jCAE/occjava3/src/OccJava.i
  /Users/nyholku/jCAE/occjava3/src/Poly.i
+ /Users/nyholku/jCAE/occjava3/src/ShapeBuild.i
  /Users/nyholku/jCAE/occjava3/src/ShapeUpgrade.i
  /Users/nyholku/jCAE/occjava3/src/Standard.i
  /Users/nyholku/jCAE/occjava3/src/TCol.i

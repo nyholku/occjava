@@ -6,6 +6,7 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  src/BRepAlgoAPI.i \
  src/BRepBuilderAPI.i \
  src/BRepCheck.i \
+ src/BRepFilletAPI.i \
  src/BRepLib.i \
  src/BRepOffsetAPI.i \
  src/BRepPrimAPI.i \
@@ -17,6 +18,7 @@ CMakeFiles/OccJava.dir/OccJavaJAVA.stamp: \
  src/GeomLProp_SLProps.i \
  src/OccJava.i \
  src/Poly.i \
+ src/ShapeBuild.i \
  src/ShapeUpgrade.i \
  src/Standard.i \
  src/TCol.i \

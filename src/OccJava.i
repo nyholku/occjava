@@ -67,15 +67,13 @@
 %include "BRepAlgoAPI.i"
 %include "Poly.i"
 %include "BRepLib.i"
-//%include "BRepFilletAPI.i"
+%include "BRepFilletAPI.i"
 %include "BRepCheck.i"
-//%include "ShapeBuild.i"
+%include "ShapeBuild.i"
 //%include "XSControl.i"
 //%include "ShapeFix.i"
 //%include "APIHeaderSection_MakeHeader.i"
-// This one require Opencascade 6.2
 %include "ShapeUpgrade.i"
-//Jens Schmidt, req. f. Thesis
 %include "GeomAPI.i"
 %include "GC.i"
 

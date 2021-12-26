@@ -48,6 +48,8 @@ BRepAlgo_Sewing.hxx
 
 /Users/nyholku/jCAE/occjava3/src/BRepCheck.i
 
+/Users/nyholku/jCAE/occjava3/src/BRepFilletAPI.i
+
 /Users/nyholku/jCAE/occjava3/src/BRepLib.i
 BRepLib.hxx
 -
@@ -181,8 +183,12 @@ Poly.i
 /Users/nyholku/jCAE/occjava3/src/Poly.i
 BRepLib.i
 /Users/nyholku/jCAE/occjava3/src/BRepLib.i
+BRepFilletAPI.i
+/Users/nyholku/jCAE/occjava3/src/BRepFilletAPI.i
 BRepCheck.i
 /Users/nyholku/jCAE/occjava3/src/BRepCheck.i
+ShapeBuild.i
+/Users/nyholku/jCAE/occjava3/src/ShapeBuild.i
 ShapeUpgrade.i
 /Users/nyholku/jCAE/occjava3/src/ShapeUpgrade.i
 GeomAPI.i
@@ -191,6 +197,8 @@ GC.i
 /Users/nyholku/jCAE/occjava3/src/GC.i
 
 /Users/nyholku/jCAE/occjava3/src/Poly.i
+
+/Users/nyholku/jCAE/occjava3/src/ShapeBuild.i
 
 /Users/nyholku/jCAE/occjava3/src/ShapeUpgrade.i
 
