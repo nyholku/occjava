@@ -36,7 +36,7 @@ class BRepPrimAPI_MakeBox : public BRepBuilderAPI_MakeShape
 	BRepPrimAPI_MakeBox(const gp_Pnt& P1,const gp_Pnt& P2);
 };
 
-/*
+
 class BRepPrimAPI_MakeCone : public BRepBuilderAPI_MakeShape
 {
 	public:
@@ -103,4 +103,3 @@ class BRepOffsetAPI_MakePipe  : public BRepPrimAPI_MakeSweep {
     public:
 	BRepOffsetAPI_MakePipe(const TopoDS_Wire& Spine,const TopoDS_Shape& Profile);
 };
-*/

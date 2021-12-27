@@ -76,11 +76,9 @@ class BRep_Tool
 	static Standard_Real Tolerance(const TopoDS_Edge& E) ;
 	static Standard_Real Tolerance(const TopoDS_Vertex& V);
 
-	/*static const Handle_Geom_Curve& Curve(const TopoDS_Edge& E,
-		Standard_Real& First,Standard_Real& Last) ;
-	static const Handle_Geom_Surface& Surface(const TopoDS_Face& F) ;
-	static const Handle_Geom2d_Curve& CurveOnSurface(const TopoDS_Edge& E,
-		const TopoDS_Face& F,Standard_Real& First,Standard_Real& Last) ;*/
+	//static const Handle_Geom_Curve& Curve(const TopoDS_Edge& E,Standard_Real& First,Standard_Real& Last) ;
+	//static const Handle_Geom_Surface& Surface(const TopoDS_Face& F) ;
+	//static const Handle_Geom2d_Curve& CurveOnSurface(const TopoDS_Edge& E,const TopoDS_Face& F,Standard_Real& First,Standard_Real& Last) ;
 };
 
 // Publish methods which return pointer instead of Handle. We do not need

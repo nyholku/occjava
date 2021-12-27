@@ -101,6 +101,10 @@ GCE2d_Root.hxx
 -
 GCE2d_MakeSegment.hxx
 -
+Geom_TrimmedCurve.hxx
+-
+Geom2d_TrimmedCurve.hxx
+-
 
 /Users/nyholku/jCAE/occjava3/src/Geom.i
 Geom_Curve.hxx
@@ -155,12 +159,12 @@ arrays_java.i
 /Users/nyholku/jCAE/occjava3/src/arrays_java.i
 Standard.i
 /Users/nyholku/jCAE/occjava3/src/Standard.i
+TopAbs.i
+/Users/nyholku/jCAE/occjava3/src/TopAbs.i
 gp.i
 /Users/nyholku/jCAE/occjava3/src/gp.i
 TCol.i
 /Users/nyholku/jCAE/occjava3/src/TCol.i
-TopAbs.i
-/Users/nyholku/jCAE/occjava3/src/TopAbs.i
 TopoDS.i
 /Users/nyholku/jCAE/occjava3/src/TopoDS.i
 GeomAbs.i
@@ -236,6 +240,12 @@ TopoDS_Wire.hxx
 TopoDS_Iterator.hxx
 -
 TopoDS_Builder.hxx
+-
+TopoDS_Face.hxx
+-
+TopoDS_Edge.hxx
+-
+TopoDS_Vertex.hxx
 -
 
 /Users/nyholku/jCAE/occjava3/src/XSControl.i

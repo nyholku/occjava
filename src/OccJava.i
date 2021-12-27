@@ -51,9 +51,9 @@
 %}
 
 %include "Standard.i"
+%include "TopAbs.i"
 %include "gp.i"
 %include "TCol.i"
-%include "TopAbs.i"
 %include "TopoDS.i"
 %include "GeomAbs.i"
 %include "TopTools.i"
@@ -377,19 +377,4 @@ class BRepAlgo
 	public:
 	static Standard_Boolean IsValid(const TopoDS_Shape& S);
 	static Standard_Boolean IsTopologicallyValid(const TopoDS_Shape& S);
-};
-
-
-%{#include <Poly_Triangulation.hxx>%}
-
-%rename(Poly_Triangulation) handle<Poly_Triangulation>;
-
-%typemap(javaout) Handle_Poly_Triangulation, Handle_Poly_Triangulation* {
-    long cPtr = $jnicall;
-    return ($javaclassname)Standard_Transient.downcastHandle(cPtr, $javaclassname.class);
-}
-
-class Handle_Poly_Triangulation
-{
-	Handle_Poly_Triangulation()=0;
 };

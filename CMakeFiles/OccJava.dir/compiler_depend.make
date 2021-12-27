@@ -424,6 +424,12 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/TopoDS_TCompSolid.lxx \
   /usr/local/include/opencascade/TopoDS_TCompound.hxx \
   /usr/local/include/opencascade/TopoDS_TCompound.lxx \
+  /usr/local/include/opencascade/TopoDS_Face.hxx \
+  /usr/local/include/opencascade/TopoDS_Face.lxx \
+  /usr/local/include/opencascade/TopoDS_Edge.hxx \
+  /usr/local/include/opencascade/TopoDS_Edge.lxx \
+  /usr/local/include/opencascade/TopoDS_Vertex.hxx \
+  /usr/local/include/opencascade/TopoDS_Vertex.lxx \
   /usr/local/include/opencascade/TopTools_ListIteratorOfListOfShape.hxx \
   /usr/local/include/opencascade/Geom_Curve.hxx \
   /usr/local/include/opencascade/Geom_Geometry.hxx \
@@ -454,10 +460,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/Poly_PolygonOnTriangulation.hxx \
   /usr/local/include/opencascade/BRep_Builder.hxx \
   /usr/local/include/opencascade/BRep_Builder.lxx \
-  /usr/local/include/opencascade/TopoDS_Face.hxx \
-  /usr/local/include/opencascade/TopoDS_Face.lxx \
-  /usr/local/include/opencascade/TopoDS_Vertex.hxx \
-  /usr/local/include/opencascade/TopoDS_Vertex.lxx \
   /usr/local/include/opencascade/BRep_TFace.hxx \
   /usr/local/include/opencascade/TopoDS_TFace.hxx \
   /usr/local/include/opencascade/TopoDS_TFace.lxx \
@@ -496,8 +498,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/TopLoc_MapLocationHasher.hxx \
   /usr/local/include/opencascade/BRepTools_WireExplorer.hxx \
   /usr/local/include/opencascade/TopTools_DataMapOfShapeListOfShape.hxx \
-  /usr/local/include/opencascade/TopoDS_Edge.hxx \
-  /usr/local/include/opencascade/TopoDS_Edge.lxx \
   /usr/local/include/opencascade/BRepTools_Quilt.hxx \
   /usr/local/include/opencascade/TopTools_IndexedDataMapOfShapeShape.hxx \
   /usr/local/include/opencascade/BRepBuilderAPI_Transform.hxx \
@@ -784,6 +784,7 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/ShapeFix_Root.lxx \
   /usr/local/include/opencascade/ShapeFix_Wireframe.lxx \
   /usr/local/include/opencascade/ShapeExtend.hxx \
+  /usr/local/include/opencascade/APIHeaderSection_MakeHeader.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_RemoveInternalWires.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_Tool.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_Tool.lxx \
@@ -1750,14 +1751,6 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/BRepPrim_Direction.hxx:
 
-/usr/local/include/opencascade/TopoDS_Vertex.lxx:
-
-/usr/local/include/opencascade/TopoDS_Vertex.hxx:
-
-/usr/local/include/opencascade/BRepPrimAPI_MakeBox.hxx:
-
-/usr/local/include/opencascade/TopoDS_Face.hxx:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/random:
 
 /usr/local/include/opencascade/GeomAbs_CurveType.hxx:
@@ -1842,6 +1835,14 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 
 /usr/local/include/opencascade/TopTools_ListIteratorOfListOfShape.hxx:
 
+/usr/local/include/opencascade/TopoDS_Vertex.lxx:
+
+/usr/local/include/opencascade/TopoDS_Vertex.hxx:
+
+/usr/local/include/opencascade/BRepPrimAPI_MakeBox.hxx:
+
+/usr/local/include/opencascade/TopoDS_Face.hxx:
+
 /usr/local/include/opencascade/TColStd_DataMapOfIntegerTransient.hxx:
 
 /usr/local/include/opencascade/BRepSweep_Revol.hxx:
@@ -1887,6 +1888,8 @@ CMakeFiles/OccJava.dir/src/jnistream.cxx.o: src/jnistream.cxx \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_mach_port_t.h:
 
 /usr/local/include/opencascade/TopoDS_Solid.lxx:
+
+/usr/local/include/opencascade/APIHeaderSection_MakeHeader.hxx:
 
 /usr/local/include/opencascade/TopoDS_CompSolid.hxx:
 
