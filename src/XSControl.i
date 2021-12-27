@@ -1,6 +1,6 @@
 /*
  * Project Info:  http://jcae.sourceforge.net
- * 
+ *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Lesser General Public License as published by the Free
  * Software Foundation; either version 2.1 of the License, or (at your option)
@@ -26,7 +26,7 @@
 {
 	int length = JCALL1(GetArrayLength, jenv, $input);
 	jbyte * name = new jbyte[length+1];
-	JCALL4(GetByteArrayRegion, jenv, $input, 0, length, name); 
+	JCALL4(GetByteArrayRegion, jenv, $input, 0, length, name);
 	name[length] = '\0';
 	$1 = name;
 }
@@ -37,6 +37,7 @@
  * XSControl_Reader
  */
  %{
+#include <StepData_StepModel.hxx>
 #include <STEPControl_Reader.hxx>
 #include <IGESControl_Reader.hxx>
 #include <XSControl_WorkSession.hxx>
@@ -50,6 +51,11 @@
 #include <Interface_InterfaceModel.hxx>
 #include <iostream>
  %}
+
+
+
+
+
 class XSControl_Reader
 {
 	%javamethodmodifiers ReadFile(const Standard_CString filename)"
@@ -109,19 +115,19 @@ class STEPControl_Reader: public XSControl_Reader
 		}
 
 		if (anEntity.IsNull()) {
-			cout<<"Warning: XSInterface_STEPReader::ReadAttributes() entity not found"<<endl;
+			std::cout<<"Warning: XSInterface_STEPReader::ReadAttributes() entity not found"<<std::endl;
 			return NULL;
 		}
-		else 
+		else
 		{
 			Handle(StepRepr_RepresentationItem) aReprItem;
 			aReprItem = Handle(StepRepr_RepresentationItem)::DownCast(anEntity);
 
 			if (aReprItem.IsNull()) {
-				cout<<"Error: STEPReader::ReadAttributes(): StepRepr_RepresentationItem Is NULL"<<endl;
+				std::cout<<"Error: STEPReader::ReadAttributes(): StepRepr_RepresentationItem Is NULL"<<std::endl;
 				return NULL;
 			}
-			else 
+			else
 				return aReprItem->Name()->ToCString();
 		}
 	}
@@ -133,24 +139,24 @@ class IGESControl_Reader: public XSControl_Reader
 	IGESControl_Reader();
 };
 
-%extend IGESControl_Reader 
+%extend IGESControl_Reader
 {
-	//dirty quick implementation of label iges reading 
-	const char * getLabel(TopoDS_Shape theShape) 
+	//dirty quick implementation of label iges reading
+	const char * getLabel(TopoDS_Shape theShape)
 	{
 		const Handle(XSControl_WorkSession)& theSession = self->WS();
 		const Handle(Interface_InterfaceModel)& theModel = theSession->Model();
 		const Handle(XSControl_TransferReader)& aReader = theSession->TransferReader();
 		const Handle(Transfer_TransientProcess)& tp = aReader->TransientProcess();
-		Standard_Integer nb = theModel->NbEntities(); 
-		for(Standard_Integer i=1; i<=nb; i++) 
+		Standard_Integer nb = theModel->NbEntities();
+		for(Standard_Integer i=1; i<=nb; i++)
 		{
 			Handle(IGESData_IGESEntity) ent = Handle(IGESData_IGESEntity)::DownCast(theModel->Value(i));
 
 			if (ent.IsNull())
 				continue;
 
-			Handle(Transfer_Binder) binder = tp->Find(ent); 
+			Handle(Transfer_Binder) binder = tp->Find(ent);
 
 			if (binder.IsNull())
 				continue;
@@ -162,13 +168,13 @@ class IGESControl_Reader: public XSControl_Reader
 				if (ent->HasName())
 					return ent->NameValue()->String().ToCString();
 				else
-					return NULL; 
+					return NULL;
 			}
 		}
-		return NULL; 
+		return NULL;
 	}
 
-	//get shape for label 
+	//get shape for label
 	TopoDS_Shape getShape(char* shapeName)
 	{
 		const TCollection_AsciiString ascShapeName(shapeName);
@@ -177,7 +183,7 @@ class IGESControl_Reader: public XSControl_Reader
 		const Handle(XSControl_TransferReader)& aReader = theSession->TransferReader();
 		const Handle(Transfer_TransientProcess)& tp = aReader->TransientProcess();
 		Standard_Integer nb = theModel->NbEntities();
-		TopoDS_Shape retShape; 
+		TopoDS_Shape retShape;
 		for(Standard_Integer i=1; i<=nb; i++)
 		{
 			Handle(IGESData_IGESEntity) ent = Handle(IGESData_IGESEntity)::DownCast(theModel->Value(i));
@@ -196,10 +202,10 @@ class IGESControl_Reader: public XSControl_Reader
 			if (ent->HasName() && ent->NameValue()->String().IsEqual(ascShapeName))
 				retShape = oneShape;
 		}
-		return retShape; 
+		return retShape;
 	}
 
-	//dump all labels 
+	//dump all labels
 	void dumpLabels()
 	{
 		const Handle(XSControl_WorkSession)& theSession = self->WS();
@@ -294,5 +300,3 @@ class IGESControl_Controller
 	IGESControl_Controller();
 	void Init();
 };
-
-

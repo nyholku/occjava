@@ -710,11 +710,83 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/TopTools_OrientedShapeMapHasher.hxx \
   /usr/local/include/opencascade/TopTools_OrientedShapeMapHasher.lxx \
   /usr/local/include/opencascade/BRepCheck_Analyzer.lxx \
+  /usr/local/include/opencascade/StepData_StepModel.hxx \
+  /usr/local/include/opencascade/Interface_EntityList.hxx \
+  /usr/local/include/opencascade/Interface_InterfaceModel.hxx \
+  /usr/local/include/opencascade/TColStd_DataMapOfIntegerTransient.hxx \
+  /usr/local/include/opencascade/Interface_DataState.hxx \
+  /usr/local/include/opencascade/TColStd_HSequenceOfHAsciiString.hxx \
+  /usr/local/include/opencascade/TColStd_SequenceOfHAsciiString.hxx \
+  /usr/local/include/opencascade/Resource_FormatType.hxx \
+  /usr/local/include/opencascade/STEPControl_Reader.hxx \
+  /usr/local/include/opencascade/XSControl_Reader.hxx \
+  /usr/local/include/opencascade/TColStd_SequenceOfTransient.hxx \
+  /usr/local/include/opencascade/IFSelect_ReturnStatus.hxx \
+  /usr/local/include/opencascade/TColStd_HSequenceOfTransient.hxx \
+  /usr/local/include/opencascade/IFSelect_PrintCount.hxx \
+  /usr/local/include/opencascade/TColStd_SequenceOfAsciiString.hxx \
+  /usr/local/include/opencascade/TColStd_Array1OfAsciiString.hxx \
+  /usr/local/include/opencascade/IGESControl_Reader.hxx \
+  /usr/local/include/opencascade/IFSelect_PrintFail.hxx \
+  /usr/local/include/opencascade/IGESControl_Reader.lxx \
+  /usr/local/include/opencascade/XSControl_WorkSession.hxx \
+  /usr/local/include/opencascade/IFSelect_WorkSession.hxx \
+  /usr/local/include/opencascade/Interface_CheckIterator.hxx \
+  /usr/local/include/opencascade/Interface_HSequenceOfCheck.hxx \
+  /usr/local/include/opencascade/Interface_Check.hxx \
+  /usr/local/include/opencascade/Interface_CheckStatus.hxx \
+  /usr/local/include/opencascade/Interface_SequenceOfCheck.hxx \
+  /usr/local/include/opencascade/TColStd_HSequenceOfInteger.hxx \
+  /usr/local/include/opencascade/TColStd_IndexedDataMapOfTransientTransient.hxx \
+  /usr/local/include/opencascade/IFSelect_RemainMode.hxx \
+  /usr/local/include/opencascade/XSControl_TransferWriter.hxx \
+  /usr/local/include/opencascade/Transfer_FinderProcess.hxx \
+  /usr/local/include/opencascade/Transfer_ProcessForFinder.hxx \
+  /usr/local/include/opencascade/Transfer_HSequenceOfFinder.hxx \
+  /usr/local/include/opencascade/Transfer_Finder.hxx \
+  /usr/local/include/opencascade/Interface_ParamType.hxx \
+  /usr/local/include/opencascade/Transfer_SequenceOfFinder.hxx \
+  /usr/local/include/opencascade/Transfer_TransferMapOfProcessForFinder.hxx \
+  /usr/local/include/opencascade/Transfer_Binder.hxx \
+  /usr/local/include/opencascade/Transfer_StatusResult.hxx \
+  /usr/local/include/opencascade/Transfer_StatusExec.hxx \
+  /usr/local/include/opencascade/Transfer_FindHasher.hxx \
+  /usr/local/include/opencascade/XSControl_TransferReader.hxx \
+  /usr/local/include/opencascade/TopTools_HSequenceOfShape.hxx \
+  /usr/local/include/opencascade/StepRepr_RepresentationItem.hxx \
+  /usr/local/include/opencascade/IGESData_IGESEntity.hxx \
+  /usr/local/include/opencascade/IGESData_DefSwitch.hxx \
+  /usr/local/include/opencascade/IGESData_DefType.hxx \
+  /usr/local/include/opencascade/IGESData_DefList.hxx \
+  /usr/local/include/opencascade/TransferBRep.hxx \
+  /usr/local/include/opencascade/TransferBRep_HSequenceOfTransferResultInfo.hxx \
+  /usr/local/include/opencascade/TransferBRep_TransferResultInfo.hxx \
+  /usr/local/include/opencascade/TransferBRep_TransferResultInfo.lxx \
+  /usr/local/include/opencascade/TransferBRep_SequenceOfTransferResultInfo.hxx \
+  /usr/local/include/opencascade/Transfer_TransientProcess.hxx \
+  /usr/local/include/opencascade/Transfer_ProcessForTransient.hxx \
+  /usr/local/include/opencascade/Transfer_TransferMapOfProcessForTransient.hxx \
+  /usr/local/include/opencascade/STEPControl_Writer.hxx \
+  /usr/local/include/opencascade/STEPControl_StepModelType.hxx \
+  /usr/local/include/opencascade/IGESControl_Writer.hxx \
+  /usr/local/include/opencascade/IGESData_BasicEditor.hxx \
+  /usr/local/include/opencascade/Interface_GeneralLib.hxx \
+  /usr/local/include/opencascade/IGESData_SpecificLib.hxx \
+  /usr/local/include/opencascade/IGESControl_Controller.hxx \
+  /usr/local/include/opencascade/XSControl_Controller.hxx \
+  /usr/local/include/opencascade/Interface_HArray1OfHAsciiString.hxx \
+  /usr/local/include/opencascade/Interface_Array1OfHAsciiString.hxx \
+  /usr/local/include/opencascade/ShapeFix_Wireframe.hxx \
+  /usr/local/include/opencascade/ShapeFix_Root.hxx \
+  /usr/local/include/opencascade/ShapeExtend_BasicMsgRegistrator.hxx \
+  /usr/local/include/opencascade/ShapeFix_Root.lxx \
+  /usr/local/include/opencascade/ShapeFix_Wireframe.lxx \
+  /usr/local/include/opencascade/ShapeExtend.hxx \
+  /usr/local/include/opencascade/APIHeaderSection_MakeHeader.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_RemoveInternalWires.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_Tool.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_Tool.lxx \
   /usr/local/include/opencascade/ShapeUpgrade_RemoveInternalWires.lxx \
-  /usr/local/include/opencascade/ShapeExtend.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_ShapeDivideArea.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_ShapeDivide.hxx \
   /usr/local/include/opencascade/ShapeUpgrade_ShapeDivideArea.lxx \
@@ -745,7 +817,6 @@ CMakeFiles/OccJava.dir/src-java/org/jcae/opencascade/jni/OccJavaJAVA_wrap.cxx.o:
   /usr/local/include/opencascade/BRepGProp.hxx \
   /usr/local/include/opencascade/TColgp_Array1OfXYZ.hxx \
   /usr/local/include/opencascade/ShapeAnalysis_FreeBounds.hxx \
-  /usr/local/include/opencascade/TopTools_HSequenceOfShape.hxx \
   /usr/local/include/opencascade/ShapeAnalysis_FreeBounds.lxx \
   /usr/local/include/opencascade/GCPnts_UniformDeflection.hxx \
   /usr/local/include/opencascade/StdFail_NotDone.hxx \
