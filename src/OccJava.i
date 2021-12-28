@@ -44,7 +44,7 @@
 %pragma(java) jniclasscode=%{
 	static
 	{
-		System.load("/Users/nyholku/jCAE/occjava2/build/libOccJava.jnilib");
+		System.load("/Users/nyholku/jCAE/occjava3/build/libOccJava.jnilib");
 		if(!"0".equals(System.getenv("MMGT_OPT")))
 			throw new RuntimeException("The MMGT_OPT environement variable must be set to 0 before using occjava.");
 	}

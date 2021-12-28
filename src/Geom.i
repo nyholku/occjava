@@ -51,7 +51,7 @@ class Geom_Geometry
     return ($javaclassname)Standard_Transient.downcastHandle(cPtr, $javaclassname.class);
 }
 
-class Geom_Curve //: public Geom_Geometry
+class Geom_Curve : public Geom_Geometry
 {
 	Geom_Curve()=0;
 };
@@ -86,7 +86,7 @@ class Geom_Curve //: public Geom_Geometry
 	}
 }
 
-class Geom_Surface // : public Geom_Geometry
+class Geom_Surface  : public Geom_Geometry
 {
 	Geom_Surface()=0;
 };
@@ -145,7 +145,7 @@ class Geom2d_Geometry
     return ($javaclassname)Standard_Transient.downcastHandle(cPtr, $javaclassname.class);
 }
 
-class Geom2d_Curve // : public Geom2d_Geometry
+class Geom2d_Curve  : public Geom2d_Geometry
 {
 	Geom2d_Curve()=0;
 };
@@ -153,19 +153,19 @@ class Geom2d_Curve // : public Geom2d_Geometry
 
 %extend Geom2d_Curve
 {
-//	gp_Pnt2d value(const Standard_Real U) const
-//	{
-//		return self->Value(U);
-//	}
+	gp_Pnt2d value(const Standard_Real U) const
+	{
+		return self->Value(U);
+	}
 }
 
 
-class Geom_BoundedCurve // : public Geom_Curve
+class Geom_BoundedCurve  : public Geom_Curve
 {
 	Geom_BoundedCurve()=0;
 };
 
-class Geom_BSplineCurve // : public Geom_BoundedCurve
+class Geom_BSplineCurve  : public Geom_BoundedCurve
 {
 	Geom_BSplineCurve()=0;
 };
@@ -301,12 +301,12 @@ class Geom_BSplineCurve // : public Geom_BoundedCurve
 
 }
 
-class Geom_TrimmedCurve // : public Geom_BoundedCurve
+class Geom_TrimmedCurve  : public Geom_BoundedCurve
 {
 	Geom_TrimmedCurve()=0;
 };
 
-class Geom_ElementarySurface // : public Geom_Surface
+class Geom_ElementarySurface  : public Geom_Surface
 {
 	Geom_ElementarySurface()=0;
 };
@@ -318,12 +318,12 @@ class Geom_ElementarySurface // : public Geom_Surface
 	}
 }
 
-class Geom_Plane // : public Geom_ElementarySurface
+class Geom_Plane  : public Geom_ElementarySurface
 {
        Geom_Plane()=0;
 };
 
-class Geom_CylindricalSurface // : public Geom_ElementarySurface
+class Geom_CylindricalSurface  : public Geom_ElementarySurface
 {
 	Geom_CylindricalSurface()=0;
 };
@@ -336,14 +336,15 @@ class Geom_CylindricalSurface // : public Geom_ElementarySurface
 	}
 }
 
-class Geom2d_Conic // : public Geom2d_Curve
+class Geom2d_Conic  : public Geom2d_Curve
 {
 	Geom2d_Conic()=0;
 };
 
-class Geom2d_Ellipse // : public Geom2d_Conic
+class Geom2d_Ellipse  : public Geom2d_Conic
 {
 	Geom2d_Ellipse()=0;
+
 };
 
 %extend Geom2d_Ellipse
@@ -354,12 +355,12 @@ class Geom2d_Ellipse // : public Geom2d_Conic
 	}
 }
 
-class Geom2d_BoundedCurve // : public Geom2d_Curve
+class Geom2d_BoundedCurve  : public Geom2d_Curve
 {
 	Geom2d_BoundedCurve()=0;
 };
 
-class Geom2d_TrimmedCurve // : public Geom2d_BoundedCurve
+class Geom2d_TrimmedCurve  : public Geom2d_BoundedCurve
 {
 	Geom2d_TrimmedCurve()=0;
 };
@@ -367,8 +368,8 @@ class Geom2d_TrimmedCurve // : public Geom2d_BoundedCurve
 %extend Geom2d_TrimmedCurve
 {
 public:
-//	Geom2d_TrimmedCurve(const Geom2d_Curve& C, const Standard_Real U1, const Standard_Real U2, const Standard_Boolean Sense = Standard_True, const Standard_Boolean theAdjustPeriodic = Standard_True)
-//	{
-//	return new Geom2d_TrimmedCurve(new Geom2d_TrimmedCurve(C,U1,U2,Sense));
-//	}
+	Geom2d_TrimmedCurve(Geom2d_Curve* C, const Standard_Real U1, const Standard_Real U2, const Standard_Boolean Sense = Standard_True, const Standard_Boolean theAdjustPeriodic = Standard_True)
+        : Geom2d_TrimmedCurve(new opencascade::handle<Geom2d_Curve>(C))
+        {
+	}
 }

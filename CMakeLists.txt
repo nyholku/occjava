@@ -47,6 +47,7 @@ else(OCE_FOUND)
     endif(WIN32)
     find_library(OCC_LIB_PATH TKernel PATHS ENV CASROOT PATH_SUFFIXES lib64 lib
                  ${OCC_LIB_EXTRA_PATH}/lib ${OCC_LIB_EXTRA_PATH}/vc8/lib)
+    set(OCC_LIB_PATH /usr/local/lib)
     if(NOT OCC_LIB_PATH)
         message(FATAL_ERROR "OpenCascade TKernel library not found.  To specify paths of OpenCascade files, you may either define the CASROOT environment variable, or set both OCC_INCLUDE_PATH and OCC_LIB_PATH variables.")
     endif(NOT OCC_LIB_PATH)

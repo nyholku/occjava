@@ -23,6 +23,7 @@
 #include <Geom_Curve.hxx>
 #include <BRep_Builder.hxx>
 #include <TopoDS_Builder.hxx>
+#include <Standard_Handle.hxx>
 %}
 
 %typemap(javacode) BRep_Tool
@@ -76,9 +77,9 @@ class BRep_Tool
 	static Standard_Real Tolerance(const TopoDS_Edge& E) ;
 	static Standard_Real Tolerance(const TopoDS_Vertex& V);
 
-	//static const Handle_Geom_Curve& Curve(const TopoDS_Edge& E,Standard_Real& First,Standard_Real& Last) ;
-	//static const Handle_Geom_Surface& Surface(const TopoDS_Face& F) ;
-	//static const Handle_Geom2d_Curve& CurveOnSurface(const TopoDS_Edge& E,const TopoDS_Face& F,Standard_Real& First,Standard_Real& Last) ;
+	//static const Geom_Curve& Curve(const TopoDS_Edge& E,Standard_Real& First,Standard_Real& Last) ;
+	//static const Geom_Surface& Surface(const TopoDS_Face& F) ;
+	//static const Geom2d_Curve& CurveOnSurface(const TopoDS_Edge& E,const TopoDS_Face& F,Standard_Real& First,Standard_Real& Last) ;
 };
 
 // Publish methods which return pointer instead of Handle. We do not need
@@ -93,13 +94,10 @@ class BRep_Tool
 
 %extend BRep_Tool
 {
+
 	static Poly_Triangulation * triangulation(const TopoDS_Face& F,TopLoc_Location& L)
 	{
-		Handle_Poly_Triangulation hgc=BRep_Tool::Triangulation(F,L).get();
-		if(hgc.IsNull())
-			return NULL;
-		else
-			return hgc.get();
+		return BRep_Tool::Triangulation(F,L).get();
 	}
 
 	static void range(const TopoDS_Edge& E, double range[2])
@@ -108,33 +106,22 @@ class BRep_Tool
 	}
 
 	// new Handle is a little memory leak as this handle is never deleted
-	static Handle_Geom_Curve * curve(const TopoDS_Edge& E,
+	static Geom_Curve*  curve(const TopoDS_Edge& E,
 		Standard_Real& First,Standard_Real& Last)
 	{
-		Handle_Geom_Curve * hgc=new Handle_Geom_Curve(BRep_Tool::Curve(E, First, Last));
-		if(hgc->IsNull())
-			return NULL;
-		else
-			return hgc;
+		return BRep_Tool::Curve(E, First, Last).get();
 	}
 
-	static Handle_Geom_Surface * surface(const TopoDS_Face& F)
+	static const Geom_Surface * surface(const TopoDS_Face& F)
 	{
-		Handle_Geom_Surface * hgc=new Handle_Geom_Surface(BRep_Tool::Surface(F));
-		if(hgc->IsNull())
-			return NULL;
-		else
-			return hgc;
+		return BRep_Tool::Surface(F).get();
+                return 0;
 	}
 
-	static Handle_Geom2d_Curve * curveOnSurface(const TopoDS_Edge& E,
+	static Geom2d_Curve * curveOnSurface(const TopoDS_Edge& E,
 		const TopoDS_Face& F,Standard_Real& First,Standard_Real& Last)
 	{
-		Handle_Geom2d_Curve * hgc=new Handle_Geom2d_Curve(BRep_Tool::CurveOnSurface(E, F, First, Last));
-		if(hgc->IsNull())
-			return NULL;
-		else
-			return hgc;
+		return BRep_Tool::CurveOnSurface(E, F, First, Last).get();
 	}
 };
 

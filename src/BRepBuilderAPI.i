@@ -19,6 +19,8 @@
  */
 
 %{
+#include <Standard_Handle.hxx>
+#include <Geom_Curve.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 #include <BRepBuilderAPI_ModifyShape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
@@ -112,7 +114,7 @@ class BRepBuilderAPI_MakeEdge : public BRepBuilderAPI_MakeShape
 	%rename(isDone) IsDone;
 	public:
 	BRepBuilderAPI_MakeEdge();
-	BRepBuilderAPI_MakeEdge(const Handle_Geom_Curve& L);
+	//BRepBuilderAPI_MakeEdge(const Geom_Curve& L);
 	BRepBuilderAPI_MakeEdge(const TopoDS_Vertex& V1,const TopoDS_Vertex& V2);
 	BRepBuilderAPI_MakeEdge(const gp_Pnt& P1,const gp_Pnt& P2);
 	BRepBuilderAPI_MakeEdge(const gp_Circ& L);
@@ -123,10 +125,22 @@ class BRepBuilderAPI_MakeEdge : public BRepBuilderAPI_MakeShape
 	BRepBuilderAPI_MakeEdge(const gp_Parab& L,const Standard_Real p1,const Standard_Real p2);
 	BRepBuilderAPI_MakeEdge(const gp_Parab& L,const gp_Pnt& P1,const gp_Pnt& P2);
 	BRepBuilderAPI_MakeEdge(const gp_Parab& L,const TopoDS_Vertex& V1,const TopoDS_Vertex& V2);
-   	BRepBuilderAPI_MakeEdge(const Handle_Geom2d_Curve& L, const Handle_Geom_Surface& S);
+   	//BRepBuilderAPI_MakeEdge(const Handle_Geom2d_Curve& L, const Handle_Geom_Surface& S);
 	Standard_Boolean IsDone() const;
 	const TopoDS_Edge& Edge();
 };
+
+
+%extend BRepBuilderAPI_MakeEdge {
+	BRepBuilderAPI_MakeEdge(Geom_Curve* L)
+                : BRepBuilderAPI_MakeEdge(new opencascade::handle<Geom_Curve>(L)) {
+}
+	BRepBuilderAPI_MakeEdge( Geom2d_Curve* L, Geom_Surface* S)
+                : BRepBuilderAPI_MakeEdge(new opencascade::handle<Geom_Curve>(L),new opencascade::handle<Geom_Surface>(S)) {
+}
+
+
+}
 
 class BRepBuilderAPI_MakeFace  : public BRepBuilderAPI_MakeShape
 {
